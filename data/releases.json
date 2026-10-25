@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-10-26T09:00:00+05:30",
- "count": 84,
+ "updatedAt": "2026-10-26T01:40:12+05:30",
+ "count": 86,
  "titles": [
   {
    "id": "vibe-2026",
@@ -905,6 +905,33 @@
    "grossAmt": 323.8
   },
   {
+   "id": "jeena-dil-se-2026",
+   "title": "Jeena Dil Se",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-10-21",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-05-29",
+   "genres": [
+    "Musical",
+    "Comedy"
+   ],
+   "cast": "Ruma Sharma, Lakshya Handa, Yash Purohit",
+   "director": "Adhish Rana",
+   "synopsis": "A youth-focused Hindi musical comedy.",
+   "source": "https://weekadda.com/",
+   "verdict": "Flop",
+   "verdictSource": "https://www.bollywoodhungama.com/movie/jeena-dil-se/box-office/",
+   "boxOffice": "₹0.33 cr worldwide",
+   "money": "INR",
+   "grossAmt": 0.33,
+   "budgetNote": "No budget reported; gross per Sacnilk",
+   "budgetSource": "https://sacnilk.com/movie/Jeena_Dil_Se_2026"
+  },
+  {
    "id": "vasudheva-sutham-2026",
    "title": "Vasudheva Sutham",
    "year": 2026,
@@ -1138,6 +1165,26 @@
    "ratingSource": "https://www.justwatch.com/in/movie/animals-2026",
    "reception": "Negative",
    "criticScore": "Rotten Tomatoes 31%"
+  },
+  {
+   "id": "least-eligible-bachelor-2026",
+   "title": "Least Eligible Bachelor",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "ETV Win",
+   "ottDate": "2026-10-09",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": null,
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "cast": "Harsha Chemudu",
+   "director": "Babu Degala",
+   "synopsis": "A bachelor whose marriage prospects keep collapsing takes an IT job in Hyderabad under a stern boss, unaware their families have already arranged a match between them.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/telugu-ott-releases-this-week-oct-5-11-epic-first-semester-least-eligible-bachelor-eyes-mandaadi-netflix-sonyliv-etv-win"
   },
   {
    "id": "mortal-kombat-ii-2026",
