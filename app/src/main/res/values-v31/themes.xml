@@ -1,0 +1,8 @@
+<resources>
+    <!-- Android 12+: calm ivory launch screen with the app icon and the "by Dhruva" signature (house brand). -->
+    <style name="Theme.StreamLens" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowSplashScreenBackground">@color/ivory</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/splash_branding</item>
+    </style>
+</resources>
