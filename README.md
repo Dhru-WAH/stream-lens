@@ -9,11 +9,12 @@ Install the APK from `Google Drive › App installs › StreamLens`.
 ## How it works
 - **Release list:** `data/releases.json` in this repo. The app downloads it from
   `raw.githubusercontent.com` on launch and pull-to-refresh, and keeps the last copy for offline use.
-- **Daily refresh:** a scheduled Claude job follows [`data/REFRESH.md`](data/REFRESH.md): it searches the web
-  for new and upcoming releases, fills IMDb / BookMyShow ratings, verdicts and budgets, and pushes the file.
+- **Daily refresh:** a scheduled Claude task on my Mac (`streamlens-daily-refresh`, ~11 am, or on next wake if
+  the Mac was asleep) follows [`data/REFRESH.md`](data/REFRESH.md): it searches the web for new and upcoming
+  releases, fills IMDb / BookMyShow ratings, verdicts and budgets, and pushes the file.
 - **My data stays on the phone:** watched ticks, watchlist, star ratings and "not interested" live in a Room
   database. Settings › Backup writes them to a JSON file; Restore reads one back.
-- **Alerts:** a daily background check posts a notification when a watchlist title starts streaming, and
+- **Alerts:** a daily background check (~7 pm) posts a notification when a watchlist title starts streaming, and
   (optionally) when new Telugu titles arrive.
 - **Posters** are drawn by the app (genre colours + title type), so there's no image hosting to maintain.
 

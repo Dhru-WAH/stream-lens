@@ -89,7 +89,7 @@ fun SettingsScreen(vm: AppViewModel, onBack: () -> Unit) {
                 val updated = home.updatedAt?.let { runCatching { OffsetDateTime.parse(it).format(DateTimeFormatter.ofPattern("d MMM yyyy, h:mm a", Locale.ENGLISH)) }.getOrNull() }
                 Text("Updated ${updated ?: "—"}", style = MaterialTheme.typography.bodyMedium)
                 if (vm.lastSync > 0) Text("Last checked ${SimpleDateFormat("d MMM, h:mm a", Locale.ENGLISH).format(Date(vm.lastSync))}", style = MaterialTheme.typography.bodySmall)
-                Text("Researched every morning by a scheduled Claude job from public sources, kept at github.com/Dhru-WAH/stream-lens.", style = MaterialTheme.typography.bodySmall)
+                Text("Researched daily by a scheduled Claude task on Dhruva's Mac from public sources, kept at github.com/Dhru-WAH/stream-lens.", style = MaterialTheme.typography.bodySmall)
                 Spacer(Modifier.height(4.dp))
                 ActionButton(if (refreshing) "Checking…" else "Check for updates now", Icons.Rounded.Refresh) { vm.refresh() }
             }
@@ -103,7 +103,7 @@ fun SettingsScreen(vm: AppViewModel, onBack: () -> Unit) {
                 SwitchRow("New Telugu releases", alerts.newTelugu) { v -> vm.updateAlerts { it.copy(newTelugu = v) } }
                 SwitchRow("New Hindi releases", alerts.newHindi) { v -> vm.updateAlerts { it.copy(newHindi = v) } }
                 SwitchRow("New English releases", alerts.newEnglish) { v -> vm.updateAlerts { it.copy(newEnglish = v) } }
-                Text("Checked once a day around 10 am.", style = MaterialTheme.typography.bodySmall)
+                Text("Checked once a day around 7 pm.", style = MaterialTheme.typography.bodySmall)
             }
 
             Card("Your data") {

@@ -15,8 +15,8 @@ android {
         applicationId = "com.dhruva.streamlens"
         minSdk = 26
         targetSdk = 37
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
         buildConfigField("String", "BUILD_DATE", "\"${LocalDate.now()}\"")
         buildConfigField("String", "FEED_URL", "\"https://raw.githubusercontent.com/Dhru-WAH/stream-lens/main/data/releases.json\"")
     }

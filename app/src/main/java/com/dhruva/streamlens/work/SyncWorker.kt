@@ -32,8 +32,8 @@ class SyncWorker(context: Context, params: WorkerParameters) : CoroutineWorker(c
 
     companion object {
         private const val NAME = "daily-sync"
-        /** The refresh job runs early morning IST; checking at 10:00 leaves it plenty of time. */
-        private val AT = LocalTime.of(10, 0)
+        /** The refresh runs late morning on the Mac (or whenever it next wakes); 19:00 leaves it the whole day. */
+        private val AT = LocalTime.of(19, 0)
 
         fun schedule(context: Context) {
             val now = LocalDateTime.now()
@@ -43,7 +43,8 @@ class SyncWorker(context: Context, params: WorkerParameters) : CoroutineWorker(c
                 .setInitialDelay(Duration.between(now, next).toMinutes(), TimeUnit.MINUTES)
                 .setConstraints(Constraints.Builder().setRequiredNetworkType(NetworkType.CONNECTED).build())
                 .build()
-            WorkManager.getInstance(context).enqueueUniquePeriodicWork(NAME, ExistingPeriodicWorkPolicy.KEEP, request)
+            // UPDATE so an installed copy picks up a changed check time; it keeps the existing work's id.
+            WorkManager.getInstance(context).enqueueUniquePeriodicWork(NAME, ExistingPeriodicWorkPolicy.UPDATE, request)
         }
     }
 }
