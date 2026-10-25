@@ -166,13 +166,16 @@ fun Ratings(r: Release, fontSize: TextUnit = 12.sp) {
 
 // ---------- signature ----------
 
-/** "by Dhruva" in the house serif. [size] is the "Dhruva" size; "by" is smaller and lighter. */
+/**
+ * "by Dhruva" in the house serif. [size] is the "Dhruva" size; "by" is smaller and lighter.
+ * [onDark] swaps to the lighter golds that read on the cinema-dark screens.
+ */
 @Composable
-fun Signature(modifier: Modifier = Modifier, size: TextUnit = 16.sp) {
+fun Signature(modifier: Modifier = Modifier, size: TextUnit = 16.sp, onDark: Boolean = false) {
     Text(
         buildAnnotatedString {
-            withStyle(SpanStyle(fontSize = size * 0.66f, color = Palette.GoldMuted, fontWeight = FontWeight.Medium)) { append("by ") }
-            withStyle(SpanStyle(fontSize = size, color = Palette.Gold, fontWeight = FontWeight.SemiBold)) { append("Dhruva") }
+            withStyle(SpanStyle(fontSize = size * 0.66f, color = if (onDark) Palette.GoldMutedOnDark else Palette.GoldMuted, fontWeight = FontWeight.Medium)) { append("by ") }
+            withStyle(SpanStyle(fontSize = size, color = if (onDark) Palette.GoldOnDark else Palette.Gold, fontWeight = FontWeight.SemiBold)) { append("Dhruva") }
         },
         fontFamily = SignatureFont,
         fontStyle = FontStyle.Italic,
@@ -295,34 +298,7 @@ fun QuickButton(icon: ImageVector, on: Boolean, onBg: Color, onInk: Color, descr
     }
 }
 
-// ---------- hero banner ----------
-
-@Composable
-fun Banner(r: Release, mark: Mark?, today: LocalDate, onOpen: () -> Unit, onWatched: () -> Unit, onWatchlist: () -> Unit, modifier: Modifier = Modifier) {
-    val out = r.isOut(today)
-    Box(modifier.clip(RoundedCornerShape(16.dp)).border(1.dp, Palette.Line, RoundedCornerShape(16.dp)).clickable(onClick = onOpen)) {
-        PosterArt(r, Modifier.fillMaxSize())
-        Box(Modifier.fillMaxSize().background(Brush.verticalGradient(0f to Color(0x1A0A060C), 0.45f to Color(0x990A060C), 1f to Color(0xF20A060C))))
-        Column(Modifier.align(Alignment.BottomStart).padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-                PlatformBadge(r.primaryPlatform, 12.sp)
-                Tag(r.langName, fontSize = 12.sp)
-                VerdictChip(r, today, 11.sp)
-                Ratings(r, 12.sp)
-            }
-            Text(whenText(r, today).uppercase(), color = Palette.Bulb, fontSize = 11.5.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 0.8.sp)
-            Text(r.title.uppercase(), fontFamily = Display, fontWeight = FontWeight.Black, fontSize = 34.sp, lineHeight = 32.sp, color = Color.White, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            val line = listOfNotNull(r.genres.take(3).joinToString(", ").ifEmpty { null }, r.cast?.split(",")?.take(2)?.joinToString(",")).joinToString("  ·  ")
-            if (line.isNotEmpty()) Text(line, color = Color(0xFFE7DDEB), fontSize = 13.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            r.synopsis?.let { Text(it, color = Color(0xFFD8CDDC), fontSize = 13.sp, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 4.dp)) {
-                PillButton("Details", Icons.Rounded.PlayArrow, onOpen)
-                if (out) PillButton(if (mark?.watched == true) "Watched" else "Mark watched", Icons.Rounded.Check, onWatched, filled = mark?.watched == true, fill = Palette.Good, ink = Palette.GoodInk)
-                else PillButton(if (mark?.watchlist == true) "Reminder set" else "Remind me", if (mark?.watchlist == true) Icons.Rounded.Bookmark else Icons.Rounded.BookmarkBorder, onWatchlist, filled = mark?.watchlist == true)
-            }
-        }
-    }
-}
+// ---------- buttons ----------
 
 @Composable
 fun PillButton(text: String, icon: ImageVector?, onClick: () -> Unit, filled: Boolean = false, fill: Color = Palette.Bulb, ink: Color = Palette.BulbInk, modifier: Modifier = Modifier) {

@@ -37,6 +37,8 @@ object Palette {
     val GoldMuted = Color(0xFFB9A07A)
     val Ivory = Color(0xFFF7F4EE)
     val IvoryInk = Color(0xFF3B3226)
+    val GoldOnDark = Color(0xFFE2C78F)
+    val GoldMutedOnDark = Color(0xFFB9A07A)
 
     fun tierBg(t: Tier) = when (t) {
         Tier.TOP -> Color(0xFFFFC85F)

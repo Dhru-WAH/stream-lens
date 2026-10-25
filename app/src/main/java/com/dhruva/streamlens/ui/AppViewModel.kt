@@ -32,7 +32,6 @@ data class HomeState(
     val loaded: Boolean = false,
     val today: LocalDate = LocalDate.now(),
     val counts: Map<Tab, Int> = emptyMap(),
-    val hero: List<Release> = emptyList(),
     val sections: List<Section> = emptyList(),
     val stats: List<LangStat> = emptyList(),
     val platforms: List<Pair<String, Int>> = emptyList(),
@@ -184,13 +183,6 @@ internal fun compute(feed: Feed?, marks: Map<String, Mark>, f: Filters, query: S
     val counts = Tab.entries.associateWith { t -> passing.count { inTab(it, t) } }
     val items = passing.filter { inTab(it, f.tab) }
 
-    val hero = when (f.tab) {
-        Tab.STREAMING -> items.filter { r -> r.ott?.let { !it.isBefore(today.minusDays(6)) } == true }
-            .sortedWith(compareBy<Release> { langRank[it.lang] ?: 3 }.then(byDateDesc)).take(8)
-        Tab.UPCOMING -> items.filter { r -> r.ott?.let { !it.isAfter(today.plusDays(7)) } == true }.sortedWith(byDateAsc).take(8)
-        else -> emptyList()
-    }
-
     val sections = LinkedHashMap<String, MutableList<Release>>()
     val badges = HashMap<String, String>()
     fun put(label: String, r: Release, badge: String? = null) {
@@ -257,7 +249,6 @@ internal fun compute(feed: Feed?, marks: Map<String, Mark>, f: Filters, query: S
         loaded = true,
         today = today,
         counts = counts,
-        hero = hero,
         sections = sections.map { (label, list) -> Section(label, badges[label], list) },
         stats = stats,
         platforms = platformCounts,
