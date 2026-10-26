@@ -13,7 +13,14 @@ push reaches the phone. Work only inside this repository and touch no file other
   high-profile films available in India.
 - **Never include** Tamil, Malayalam, Kannada or any other language, even when dubbed into Telugu.
   Never include titles whose only platform is Apple TV or WAVES OTT.
-- Movies mainly. A big web series may go in with `"kind": "series"`.
+- **Web series** go in too, with `"kind": "series"` (the app shows Movies and Series separately):
+  Telugu: all notable original series and new seasons (Aha, ETV Win, ZEE5, JioHotstar, Prime Video, Netflix…);
+  Hindi: notable series and new seasons, especially from the big platforms; English: only a few very big ones
+  available in India (major Netflix / Prime Video / JioHotstar shows). A new season is its own record, e.g.
+  title `"Mirzapur Season 4"`, id `mirzapur-season-4-2026`. Use the season premiere date as `ottDate`.
+  Skip reality shows, talk shows, kids' shows and documentaries unless they are very big.
+  For series, leave `verdict`, `budgetAmt`, `grossAmt` and `breakEvenAmt` null; fill IMDb, reception and
+  `criticScore` when known.
 - Platforms as named in India: Netflix, Prime Video, JioHotstar, ZEE5, SonyLIV, Aha, ETV Win, Sun NXT.
   A rent-only title is `"Prime Video (Rent)"`.
 

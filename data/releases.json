@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-10-26T01:40:12+05:30",
- "count": 86,
+ "updatedAt": "2026-10-26T14:25:28+05:30",
+ "count": 110,
  "titles": [
   {
    "id": "vibe-2026",
@@ -134,6 +134,24 @@
    "budgetSource": "https://en.wikipedia.org/wiki/Ranabaali"
   },
   {
+   "id": "panchayat-season-5-2026",
+   "title": "Panchayat Season 5",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Prime Video",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Jitendra Kumar, Neena Gupta, Raghubir Yadav, Chandan Roy, Faisal Malik, Sanvikaa",
+   "director": "Deepak Kumar Mishra",
+   "synopsis": "Abhishek Tripathi and the people of Phulera return for another season of village politics.",
+   "source": "https://www.pinkvilla.com/cinema/panchayat-season-5-when-will-jitendra-kumar-starrer-web-series-start-streaming-heres-what-we-know-1405290"
+  },
+  {
    "id": "karmakhya-2026",
    "title": "Karmakhya",
    "year": 2026,
@@ -187,6 +205,23 @@
    "grossAmt": 11.5,
    "budgetNote": "₹100–115 cr reported, unconfirmed (Koimoi; Flickonclick ~₹115 cr making cost, ~₹140 cr incl. P&A)",
    "budgetSource": "https://www.koimoi.com/box-office/haiwaan-box-office-vs-oppam-akshay-kumar-saif-ali-khans-remake-needs-to-earn-115-crore-to-beat-this-milestone-by-mohanlals-og/"
+  },
+  {
+   "id": "family-business-2026",
+   "title": "Family Business",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Netflix",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "genres": [
+    "Drama"
+   ],
+   "cast": "Anil Kapoor, Vijay Varma, Neha Dhupia, Rhea Chakraborty",
+   "director": "Hansal Mehta",
+   "synopsis": "A billionaire's falling-out with the protege he groomed to run India's biggest conglomerate turns into a war over legacy and control.",
+   "source": "https://www.hollywoodreporterindia.com/features/insight/anil-kapoor-vijay-varma-headline-hansal-mehtas-new-series-family-business"
   },
   {
    "id": "drishyam-the-conclusion-2026",
@@ -254,6 +289,24 @@
    "grossAmt": 5.4,
    "budgetNote": "₹10 cr reported (Koimoi). Gross is India gross; Sacnilk ₹5.21 cr",
    "budgetSource": "https://www.koimoi.com/box-office/dont-trouble-the-trouble-box-office-closing-collection-wraps-up-as-fahadh-faasils-2nd-flop-in-a-row/"
+  },
+  {
+   "id": "dhindora-season-2-2026",
+   "title": "Dhindora Season 2",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Netflix",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "genres": [
+    "Comedy",
+    "Family"
+   ],
+   "cast": "Bhuvan Bam, Sanjeeda Shaikh",
+   "director": "Sneha Shetty Kohli",
+   "synopsis": "Bhuvan Bam's YouTube family comedy moves to Netflix for a second season, with Bam again playing several characters around Titu Mama.",
+   "source": "https://telanganatoday.com/bhuvan-bam-says-dhindora-2-stays-true-to-its-roots"
   },
   {
    "id": "comrade-kalyan-2026",
@@ -410,6 +463,23 @@
    "source": "https://theplaylist.net/the-mosquito-bowl-netflix-will-release-peter-bergs-wwii-drama-in-theaters-on-october-30-premieres-on-streamer-on-november-25-20260821/"
   },
   {
+   "id": "blade-runner-2099-2026",
+   "title": "Blade Runner 2099",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-11-25",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "genres": [
+    "Sci-Fi"
+   ],
+   "cast": "Michelle Yeoh, Hunter Schafer",
+   "synopsis": "A sequel series set decades after Blade Runner 2049 in the same replicant-haunted future.",
+   "source": "https://tvline.com/2237753/prime-video-fall-2026-schedule-movies-tv-shows"
+  },
+  {
    "id": "madden-2026",
    "title": "Madden",
    "year": 2026,
@@ -428,6 +498,24 @@
    "director": "David O. Russell",
    "synopsis": "A biopic of NFL coach and broadcaster John Madden, centered on his bond with Raiders owner Al Davis.",
    "source": "https://www.aboutamazon.com/news/entertainment/madden-movie-nicolas-cage-prime-video"
+  },
+  {
+   "id": "student-of-the-year-after-dark-2026",
+   "title": "Student Of The Year: After Dark",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "JioHotstar",
+   "ottDate": "2026-11-13",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "genres": [
+    "Thriller"
+   ],
+   "cast": "Shanaya Kapoor",
+   "director": "Reema Maya",
+   "synopsis": "A darker thriller reimagining of the Student of the Year franchise, set at St. Theresa, with Shanaya Kapoor in a double role.",
+   "source": "https://www.bollywoodhungama.com/amp/news/bollywood/shanaya-kapoors-debut-web-show-student-of-the-year-after-dark-to-premiere-november-13-on-jiohotstar/"
   },
   {
    "id": "daayra-2026",
@@ -463,6 +551,24 @@
    "budgetSource": "https://www.koimoi.com/box-office/daayra-box-office-closing-collection-kareena-kapoor-prithviraj-sukumarans-film-wraps-up-below-12-crore/"
   },
   {
+   "id": "the-lord-of-the-rings-the-rings-of-power-season-3-2026",
+   "title": "The Lord of the Rings: The Rings of Power Season 3",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-11-11",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "genres": [
+    "Fantasy",
+    "Drama"
+   ],
+   "cast": "Morfydd Clark",
+   "synopsis": "The Middle-earth prequel continues the war between the Elves and Sauron.",
+   "source": "https://tvline.com/2237753/prime-video-fall-2026-schedule-movies-tv-shows"
+  },
+  {
    "id": "the-vvaan-force-of-the-forrest-2026",
    "title": "The Vvaan: Force of the Forrest",
    "year": 2026,
@@ -495,6 +601,24 @@
    "grossAmt": 92,
    "budgetNote": "₹80–100 cr estimated (Flickonclick); The Week cites unconfirmed ₹80 cr",
    "budgetSource": "https://www.flickonclick.com/?p=187490"
+  },
+  {
+   "id": "black-doves-season-2-2026",
+   "title": "Black Doves Season 2",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-11-05",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "genres": [
+    "Spy",
+    "Thriller"
+   ],
+   "cast": "Keira Knightley, Ben Whishaw, Andrew Buchan, Ambika Mod, Neve Campbell",
+   "synopsis": "Helen keeps leaking state secrets to the Black Doves as her husband closes in on the prime minister's job, while Sam scrapes by on cheap hits.",
+   "source": "https://www.whats-on-netflix.com/coming-soon/best-new-netflix-series-november-2026/"
   },
   {
    "id": "sub-inspector-yugandhar-2026",
@@ -869,6 +993,27 @@
    "budgetNote": "Gross is Sacnilk tracker figure, likely incomplete"
   },
   {
+   "id": "the-terminal-list-season-2-2026",
+   "title": "The Terminal List Season 2",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-10-21",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Action",
+    "Thriller"
+   ],
+   "cast": "Chris Pratt, Constance Wu, Taylor Kitsch, Riley Keough",
+   "synopsis": "Former Navy SEAL James Reece returns for another round of action-thriller vengeance.",
+   "source": "https://tvline.com/2237753/prime-video-fall-2026-schedule-movies-tv-shows",
+   "ratingSource": "https://www.rottentomatoes.com/tv/the_terminal_list/s02",
+   "reception": "Mixed",
+   "criticScore": "Rotten Tomatoes 57%"
+  },
+  {
    "id": "moana-2026",
    "title": "Moana",
    "year": 2026,
@@ -903,6 +1048,28 @@
    "money": "USD",
    "budgetAmt": 250,
    "grossAmt": 323.8
+  },
+  {
+   "id": "matargashti-2026",
+   "title": "Matargashti",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-10-21",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Rajesh Kumar, Adrija Sinha, Saumya Uniyal, Tulika Banerjee",
+   "synopsis": "In Lucknow, a single father panics when his studious teenage daughter decides she wants to lose her virginity.",
+   "source": "https://www.hollywoodreporterindia.com/reviews/streaming/matargashti-series-review-a-warm-and-watchable-father-daughter-comedy",
+   "imdb": 7.2,
+   "imdbVotes": "480",
+   "ratingSource": "https://www.justwatch.com/in/tv-show/matargashti",
+   "reception": "Positive"
   },
   {
    "id": "jeena-dil-se-2026",
@@ -979,6 +1146,31 @@
    "money": "INR",
    "grossAmt": 0.22,
    "budgetNote": "Gross from Sacnilk"
+  },
+  {
+   "id": "the-diplomat-season-4-2026",
+   "title": "The Diplomat Season 4",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-10-15",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Political",
+    "Thriller",
+    "Drama"
+   ],
+   "cast": "Keri Russell, Rufus Sewell, David Gyasi, Ali Ahn, Rory Kinnear",
+   "dubs": [
+    "hi"
+   ],
+   "synopsis": "Ambassador Kate Wyler faces new diplomatic crises while her husband's ties to the president leave her unsure whom to trust.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-october-12-october-18-2026-hoemonal-enna-vilai-the-traitors-the-diplomat-4-on-netflix-prime-video-and-more",
+   "ratingSource": "https://www.rottentomatoes.com/tv/the_diplomat/s04",
+   "reception": "Positive",
+   "criticScore": "Rotten Tomatoes 96%"
   },
   {
    "id": "disclosure-day-2026",
@@ -1066,6 +1258,26 @@
    "money": "INR",
    "grossAmt": 0.42,
    "budgetNote": "Own release by makers; did not recover expenses (Gulte). Gross from Sacnilk"
+  },
+  {
+   "id": "least-eligible-bachelor-2026",
+   "title": "Least Eligible Bachelor",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "ETV Win",
+   "ottDate": "2026-10-09",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": null,
+   "genres": [
+    "Comedy",
+    "Romance"
+   ],
+   "cast": "Harsha Chemudu",
+   "director": "Babu Degala",
+   "synopsis": "A bachelor whose marriage prospects keep collapsing takes an IT job in Hyderabad under a stern boss, unaware their families have already arranged a match between them.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/telugu-ott-releases-this-week-oct-5-11-epic-first-semester-least-eligible-bachelor-eyes-mandaadi-netflix-sonyliv-etv-win"
   },
   {
    "id": "epic-first-semester-2026",
@@ -1167,26 +1379,6 @@
    "criticScore": "Rotten Tomatoes 31%"
   },
   {
-   "id": "least-eligible-bachelor-2026",
-   "title": "Least Eligible Bachelor",
-   "year": 2026,
-   "lang": "te",
-   "kind": "series",
-   "platform": "ETV Win",
-   "ottDate": "2026-10-09",
-   "dateConfirmed": true,
-   "status": "streaming",
-   "theatricalDate": null,
-   "genres": [
-    "Comedy",
-    "Romance"
-   ],
-   "cast": "Harsha Chemudu",
-   "director": "Babu Degala",
-   "synopsis": "A bachelor whose marriage prospects keep collapsing takes an IT job in Hyderabad under a stern boss, unaware their families have already arranged a match between them.",
-   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/telugu-ott-releases-this-week-oct-5-11-epic-first-semester-least-eligible-bachelor-eyes-mandaadi-netflix-sonyliv-etv-win"
-  },
-  {
    "id": "mortal-kombat-ii-2026",
    "title": "Mortal Kombat II",
    "year": 2026,
@@ -1217,6 +1409,51 @@
    "money": "USD",
    "budgetAmt": 80,
    "grossAmt": 129.6
+  },
+  {
+   "id": "ishqa-ishqa-2026",
+   "title": "Ishqa Ishqa",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Amazon MX Player",
+   "ottDate": "2026-10-07",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Romance",
+    "Thriller"
+   ],
+   "cast": "Helly Shah, Satyajeet Dubey, Anushka Kaushik",
+   "synopsis": "A dark romantic thriller built around a love triangle between Kabir and two women.",
+   "source": "https://www.flickonclick.com/ishqa-ishqa-ott-release-date-on-mx-player/",
+   "ratingSource": "https://www.justwatch.com/in/tv-show/ishqa-ishqa"
+  },
+  {
+   "id": "carrie-2026",
+   "title": "Carrie",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-10-07",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Horror",
+    "Drama"
+   ],
+   "cast": "Summer H. Howell, Samantha Sloyan, Siena Agudong, Matthew Lillard",
+   "director": "Mike Flanagan",
+   "dubs": [
+    "hi",
+    "te"
+   ],
+   "synopsis": "Mike Flanagan's eight-episode take on Stephen King's novel moves the bullied telekinetic teen Carrie White into the social-media age.",
+   "source": "https://www.sacnilk.com/news/new_ott_releases_this_week_october_5_october_11_2026_parineeti_chopras_reporting_live_ben_afflecks_animals_sooris_mandaadi_carrie_and_more",
+   "ratingSource": "https://www.rottentomatoes.com/tv/carrie",
+   "reception": "Positive",
+   "criticScore": "Rotten Tomatoes 85%"
   },
   {
    "id": "spider-man-brand-new-day-2026",
@@ -1383,6 +1620,27 @@
    "budgetSource": "https://www.freepressjournal.in/entertainment/ohh-my-dog-box-office-collection-day-6-pankaj-tripathi-starrer-earns-20-lakh-on-wednesday"
   },
   {
+   "id": "dupahiya-season-2-2026",
+   "title": "Dupahiya Season 2",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-10-01",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Gajraj Rao, Renuka Shahane, Sparsh Shrivastava, Bhuvan Arora, Shivani Raghuvanshi, Dinesh Lal Yadav",
+   "director": "Sonam Nair",
+   "synopsis": "The once crime-free village of Dhadakpur faces a paper-leak racket and a feud over a 5G tower.",
+   "source": "https://www.bollywoodhungama.com/news/features/web-series-review-dupahiya-season-2-is-an-entertaining-and-relevant-follow-up-that-works-due-to-its-quirky-humour/",
+   "reception": "Positive",
+   "criticScore": "Bollywood Hungama 3.5/5"
+  },
+  {
    "id": "ameer-log-2026",
    "title": "Ameer Log",
    "year": 2026,
@@ -1491,6 +1749,30 @@
    "budgetNote": "BE: buyers' theatrical value ~₹4.5 cr; ~₹10 cr gross break-even (Gulte). Gross is Sacnilk; Gulte said ~₹6 cr"
   },
   {
+   "id": "hunkkaar-the-roar-2026",
+   "title": "Hunkkaar: The Roar",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "JioHotstar",
+   "ottDate": "2026-09-25",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Drama",
+    "Thriller",
+    "Legal"
+   ],
+   "cast": "Aneet Padda, Fatima Sana Shaikh, Mohammed Zeeshan Ayyub, Arjun Mathur, Ram Kapoor",
+   "synopsis": "A teenager's assault accusation against a powerful cult leader sets off a police probe and a courtroom fight.",
+   "source": "https://www.freepressjournal.in/entertainment/hunkkaar-the-roar-review-aneet-padda-is-outstanding-in-this-riveting-series",
+   "imdb": 7.2,
+   "imdbVotes": "2.1K",
+   "ratingSource": "https://www.justwatch.com/in/tv-show/hunkkaar-the-roar",
+   "reception": "Positive",
+   "criticScore": "Free Press Journal 4/5"
+  },
+  {
    "id": "don-t-be-shy-2026",
    "title": "Don't Be Shy",
    "year": 2026,
@@ -1514,6 +1796,28 @@
    "ratingSource": "https://www.justwatch.com/in/movie/dont-be-shy",
    "reception": "Mixed",
    "criticScore": "Bollywood Hungama 2/5"
+  },
+  {
+   "id": "bakaiti-season-2-2026",
+   "title": "Bakaiti Season 2",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "ZEE5",
+   "ottDate": "2026-09-25",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Comedy",
+    "Family",
+    "Drama"
+   ],
+   "cast": "Rajesh Tailang, Sheeba Chaddha, Aditya Shukla, Tanya Sharma",
+   "director": "Samar Iqbal",
+   "synopsis": "The cash-strapped Kataria family returns, now with two households crammed under one roof.",
+   "source": "https://www.flickonclick.com/bakaiti-season-2-review/",
+   "reception": "Mixed",
+   "criticScore": "Flickonclick 3/5"
   },
   {
    "id": "agadha-2026",
@@ -1729,6 +2033,56 @@
    "grossAmt": 90.6
   },
   {
+   "id": "waiting-hai-2026",
+   "title": "Waiting Hai",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-09-16",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Comedy",
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Divyenndu, Bhuvan Arora, Harshita Gaur",
+   "director": "Sameer Vidwans",
+   "synopsis": "A rookie railway police officer goes after a hacker running a black market in Tatkal train tickets.",
+   "source": "https://www.sacnilk.com/news/ott_releases_this_week_september_1420_2026_irumudi_lust_stories_3_thudakkam_10_new_titles_coming_on_netflix_jiohotstar_and_more",
+   "imdb": 6.6,
+   "imdbVotes": "1.1K",
+   "ratingSource": "https://www.justwatch.com/in/tv-show/waiting-hai",
+   "reception": "Positive",
+   "criticScore": "Flickonclick 4/5"
+  },
+  {
+   "id": "neagley-2026",
+   "title": "Neagley",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-09-16",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Action",
+    "Crime"
+   ],
+   "cast": "Maria Sten, Greyston Holt, Adeline Rudolph, Matthew Del Negro",
+   "dubs": [
+    "hi",
+    "te"
+   ],
+   "synopsis": "In this Reacher spin-off, ex-Army investigator Frances Neagley digs into a friend's suspicious death and uncovers a larger threat.",
+   "source": "https://www.rottentomatoes.com/tv/neagley",
+   "ratingSource": "https://www.rottentomatoes.com/tv/neagley",
+   "reception": "Positive",
+   "criticScore": "Rotten Tomatoes 94%"
+  },
+  {
    "id": "hushar-pittalu-2026",
    "title": "Hushar Pittalu",
    "year": 2026,
@@ -1794,6 +2148,27 @@
    "reception": "Mixed"
   },
   {
+   "id": "panchanama-2026",
+   "title": "Panchanama",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "ZEE5",
+   "ottDate": "2026-09-11",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Bharath Srinivasan, Medha Reddy, Roopa Lakshmi, Sivaji Raja",
+   "director": "Mohan Srivatsa",
+   "synopsis": "A police officer refuses to accept that his brother's death was an accident and uncovers a medical crime network.",
+   "source": "https://www.medianews4u.com/telugu-zee-5-unveils-panchanama-to-premiere-on-september-11/",
+   "reception": "Mixed",
+   "criticScore": "Flickonclick 4/5"
+  },
+  {
    "id": "koloveri-2026",
    "title": "Koloveri",
    "year": 2026,
@@ -1832,6 +2207,46 @@
    "source": "https://www.hollywoodreporterindia.com/features/insight/what-to-watch-on-netflix-prime-video-and-zee5-this-week-the-revolutionaries-ghamasaan-chumbak-and-more",
    "reception": "Mixed",
    "criticScore": "Bollywood Hungama 3/5"
+  },
+  {
+   "id": "ali-baba-aur-40-bhoot-2026",
+   "title": "Ali Baba Aur 40 Bhoot",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "JioHotstar",
+   "ottDate": "2026-09-11",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Fantasy",
+    "Horror",
+    "Comedy"
+   ],
+   "cast": "Asha Negi, Vishal Vashishtha, Abhay Mahajan, Joy Sengupta",
+   "director": "Kenny Basumatary",
+   "synopsis": "A sceptical neuropsychologist hunting for her missing father in her hometown runs into old demons and forty ghosts, aided by a superstitious cop and a paranormal investigator.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-september-713-2026-ghamasaan-chumbak-ali-baba-aur-40-bhoot-and-sarpanch-arrive-on-ott"
+  },
+  {
+   "id": "chumbak-2026",
+   "title": "Chumbak",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-09-10",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Comedy",
+    "Family"
+   ],
+   "cast": "Neena Gupta, Deven Bhojani, Sumeet Vyas, Delnaaz Irani",
+   "director": "Aatish Kapadia",
+   "synopsis": "A sitcom about the squabbling, gossiping residents of a Mumbai housing colony, including a divorced elderly couple who still share a home.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-september-713-2026-ghamasaan-chumbak-ali-baba-aur-40-bhoot-and-sarpanch-arrive-on-ott",
+   "reception": "Mixed"
   },
   {
    "id": "cocaine-2026",
@@ -1897,6 +2312,31 @@
    "budgetSource": "https://www.koimoi.com/box-office/korean-kanakaraju-box-office-closing-collection-ends-up-as-varun-tejs-3rd-consecutive-failure-with-deficit-of-37/"
   },
   {
+   "id": "jagamae-sangeetham-2026",
+   "title": "Jagamae Sangeetham",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-09-04",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Drama",
+    "Musical"
+   ],
+   "cast": "Prakash Raj, Srikanth, Madhoo, Akshay Lagusani, Sushmita Shetty",
+   "director": "Palnati Surya Pratap",
+   "dubs": [
+    "ta"
+   ],
+   "synopsis": "A Telugu adaptation of Bandish Bandits in which a Carnatic maestro's grandson takes on his family's musical legacy amid old rivalries and strained relationships.",
+   "source": "https://www.hollywoodreporterindia.com/features/insight/prime-video-announces-telugu-musical-drama-series-jagamae-sangeetham-releasing-this-september",
+   "ratingSource": "https://www.justwatch.com/in/tv-show/jagamae-sangeetham",
+   "reception": "Negative",
+   "criticScore": "Bingebaaz 2.5/5"
+  },
+  {
    "id": "dhamaal-4-2026",
    "title": "Dhamaal 4",
    "year": 2026,
@@ -1928,6 +2368,30 @@
    "grossAmt": 225,
    "budgetNote": "₹150–200 cr reported (Filmibeat pre-release ~₹150 cr incl. P&A; Free Press Journal ~₹200 cr)",
    "budgetSource": "https://www.freepressjournal.in/amp/entertainment/dhamaal-4-box-office-collection-day-10-ajay-devgn-riteish-deshmukh-arshad-warsis-film-sees-weekend-boost-collects-1275-crore"
+  },
+  {
+   "id": "the-gentlemen-season-2-2026",
+   "title": "The Gentlemen Season 2",
+   "year": 2026,
+   "lang": "en",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-09-03",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Crime",
+    "Comedy"
+   ],
+   "cast": "Theo James, Kaya Scodelario, Giancarlo Esposito, Daniel Ings, Vinnie Jones",
+   "dubs": [
+    "hi"
+   ],
+   "synopsis": "Eddie Horniman and Susie Glass push their cannabis empire into Italy while Susie's jailed father makes ever riskier moves.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-august-31-september-6-2026-dhamaal-4-the-gentlemen-s2-gandhari-and-unmadham-lead-the-lineup-on-netflix-jiohotstar-and-sonyliv",
+   "ratingSource": "https://www.rottentomatoes.com/tv/the_gentlemen/s02",
+   "reception": "Positive",
+   "criticScore": "Rotten Tomatoes 87%"
   },
   {
    "id": "gandhari-2026",
@@ -2085,6 +2549,31 @@
    "criticScore": "Rotten Tomatoes 45%"
   },
   {
+   "id": "part-timers-2026",
+   "title": "Part-Timers",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "JioHotstar",
+   "ottDate": "2026-08-28",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Comedy"
+   ],
+   "cast": "Thanuja Puttaswamy, Gnaneswari Kandregula",
+   "director": "Sampath Kumar Thota",
+   "dubs": [
+    "ta",
+    "kn",
+    "ml",
+    "hi"
+   ],
+   "synopsis": "Two mismatched roommates take part-time jobs to fund the startup they dream of building together.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/latest-telugu-ott-releases-when-and-where-to-watch-part-timers-irumudi-jiohotstar-netflix-august-28",
+   "reception": "Mixed"
+  },
+  {
    "id": "kjq-king-jackie-queen-2026",
    "title": "KJQ: King Jackie Queen",
    "year": 2026,
@@ -2239,6 +2728,27 @@
    "grossAmt": 98.6,
    "budgetNote": "₹100–150 cr reported (Wikipedia range; News18 ₹100–130 cr, Navbharat Times ₹150 cr, Filmibeat ~₹125 cr incl. P&A)",
    "budgetSource": "https://en.wikipedia.org/wiki/Alpha_(2026_film)"
+  },
+  {
+   "id": "aakali-rajyam-2026",
+   "title": "Aakali Rajyam",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "Aha",
+   "ottDate": "2026-08-28",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Drama"
+   ],
+   "cast": "Vikas Vasishta, Geet Sayini, Rajesh Khanna",
+   "director": "Neelagiri Mamilla",
+   "dubs": [
+    "ta"
+   ],
+   "synopsis": "Three engineering graduates move to Hyderabad in search of jobs and, after repeated rejections, set out to build something of their own.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/4-new-friday-south-indian-ott-releases-august-28-2026-aakali-rajyam-aha-video-kerala-underground-zee5-anbe-diana-sonyliv-part-timers-jiohotstar"
   },
   {
    "id": "newton-s-3rd-law-2026",
