@@ -162,6 +162,7 @@ internal fun compute(feed: Feed?, marks: Map<String, Mark>, f: Filters, query: S
         val m = marks[r.id]
         when {
             m?.hidden == true && !showHidden -> false
+            r.isSeries != (f.kind == "series") -> false
             f.lang != "all" && r.lang != f.lang -> false
             f.teluguAudio && !r.hasTeluguAudio -> false
             f.platforms.isNotEmpty() && r.platforms.none { it in f.platforms } -> false

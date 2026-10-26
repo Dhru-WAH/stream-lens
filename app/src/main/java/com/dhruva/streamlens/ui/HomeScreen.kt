@@ -133,7 +133,11 @@ fun HomeScreen(vm: AppViewModel, onOpen: (String) -> Unit, onSettings: () -> Uni
                 verticalArrangement = Arrangement.spacedBy(16.dp),
                 modifier = Modifier.fillMaxSize(),
             ) {
-                full("heading") { Heading(TABS.first { it.tab == filters.tab }, home.counts[filters.tab] ?: 0) }
+                full("heading") {
+                    Heading(TABS.first { it.tab == filters.tab }, home.counts[filters.tab] ?: 0, filters.kind) { k ->
+                        vm.updateFilters { it.copy(kind = k) }
+                    }
+                }
                 if (filters.tab == Tab.WATCHED && home.stats.isNotEmpty()) full("stats") {
                     Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                         home.stats.forEach { StatRing(it) }
@@ -146,7 +150,9 @@ fun HomeScreen(vm: AppViewModel, onOpen: (String) -> Unit, onSettings: () -> Uni
                 if (!home.loaded) full("loading") { EmptyState("Loading releases…", "One moment.") }
                 else if (home.sections.isEmpty()) full("empty") {
                     val (h, b) = EMPTY.getValue(filters.tab)
-                    EmptyState(h, b)
+                    if (filters.kind == "series" && filters.tab != Tab.WATCHLIST && filters.tab != Tab.WATCHED) {
+                        EmptyState("No web series here", "Switch to Movies, or try All languages.")
+                    } else EmptyState(h, b)
                 }
                 home.sections.forEach { section ->
                     full("h-${section.label}") { SectionHeader(section.label, section.badge, section.items.size) }
@@ -197,7 +203,7 @@ private fun Header(showPick: Boolean, onPick: () -> Unit, onSettings: () -> Unit
 }
 
 @Composable
-private fun Heading(info: TabInfo, count: Int) {
+private fun Heading(info: TabInfo, count: Int, kind: String, onKind: (String) -> Unit) {
     Column(Modifier.padding(top = 10.dp)) {
         Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Text(
@@ -210,7 +216,33 @@ private fun Heading(info: TabInfo, count: Int) {
             if (count > 0) Text("$count", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(bottom = 5.dp))
         }
         Spacer(Modifier.height(6.dp))
-        Bulbs(count = 14)
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Bulbs(count = 9)
+            Spacer(Modifier.weight(1f))
+            KindSwitch(kind, onKind)
+        }
+    }
+}
+
+/** Movies and web series are browsed separately; this flips between them on every tab. */
+@Composable
+private fun KindSwitch(kind: String, onKind: (String) -> Unit) {
+    Row(
+        Modifier.clip(RoundedCornerShape(999.dp)).background(Palette.Surface).padding(3.dp),
+        horizontalArrangement = Arrangement.spacedBy(2.dp),
+    ) {
+        listOf("movie" to "Movies", "series" to "Series").forEach { (k, label) ->
+            val on = kind == k
+            Surface(onClick = { onKind(k) }, shape = RoundedCornerShape(999.dp), color = if (on) Palette.Bulb else Color.Transparent) {
+                Text(
+                    label,
+                    fontSize = 13.sp,
+                    fontWeight = if (on) FontWeight.ExtraBold else FontWeight.SemiBold,
+                    color = if (on) Palette.BulbInk else Palette.Muted,
+                    modifier = Modifier.padding(horizontal = 14.dp, vertical = 6.dp),
+                )
+            }
+        }
     }
 }
 

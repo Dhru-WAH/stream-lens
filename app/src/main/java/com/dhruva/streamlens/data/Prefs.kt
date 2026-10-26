@@ -11,6 +11,8 @@ enum class Sort { NEWEST, TOP_RATED, BIGGEST_HITS }
 @Serializable
 data class Filters(
     val tab: Tab = Tab.STREAMING,
+    /** "movie" or "series": the two are browsed separately. */
+    val kind: String = "movie",
     val lang: String = "all",
     val teluguAudio: Boolean = false,
     val unwatchedOnly: Boolean = true,
