@@ -15,8 +15,8 @@ android {
         applicationId = "com.dhruva.streamlens"
         minSdk = 26
         targetSdk = 37
-        versionCode = 4
-        versionName = "1.3"
+        versionCode = 5
+        versionName = "1.4"
         buildConfigField("String", "BUILD_DATE", "\"${LocalDate.now()}\"")
         buildConfigField("String", "FEED_URL", "\"https://raw.githubusercontent.com/Dhru-WAH/stream-lens/main/data/releases.json\"")
     }
@@ -70,6 +70,8 @@ dependencies {
     implementation("androidx.work:work-runtime-ktx:2.9.1")
 
     implementation("com.squareup.okhttp3:okhttp:5.5.0")
+    implementation("io.coil-kt.coil3:coil-compose:3.6.3")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.6.3")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
 

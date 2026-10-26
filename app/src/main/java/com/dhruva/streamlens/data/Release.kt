@@ -49,6 +49,11 @@ data class Release(
     val breakEvenKind: String? = null,
     val budgetNote: String? = null,
     val budgetSource: String? = null,
+    /** TMDB image URLs (filled by tools/posters.py); null means the app draws its own artwork. */
+    val poster: String? = null,
+    val backdrop: String? = null,
+    val tmdbId: Long? = null,
+    val tmdbType: String? = null,
 ) {
     val ott: LocalDate? get() = ottDate.toDate()
     val theatrical: LocalDate? get() = theatricalDate.toDate()

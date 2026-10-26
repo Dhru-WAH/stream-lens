@@ -31,6 +31,15 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.layout.ContentScale
+import coil3.compose.AsyncImage
+import coil3.compose.LocalPlatformContext
+import coil3.request.ImageRequest
+import coil3.request.crossfade
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -216,13 +225,19 @@ fun PosterCard(
 ) {
     val out = r.isOut(today)
     val watched = mark?.watched == true
+    var hasPhoto by remember(r.poster) { mutableStateOf(false) }
     Column(modifier.then(if (mark?.hidden == true) Modifier.padding(0.dp) else Modifier), verticalArrangement = Arrangement.spacedBy(6.dp)) {
         BoxWithConstraints(
             Modifier.fillMaxWidth().aspectRatio(2f / 3f).clip(RoundedCornerShape(12.dp)).clickable(onClick = onOpen),
         ) {
             val cw = maxWidth.value
-            PosterArt(r, Modifier.fillMaxSize(), dimmed = watched)
-            Box(Modifier.fillMaxSize().background(Brush.verticalGradient(0f to Color.Black.copy(alpha = 0.35f), 0.22f to Color.Transparent, 0.45f to Color.Transparent, 1f to Color(0xEB08050A))))
+            PosterImage(r, r.poster, Modifier.fillMaxSize(), dimmed = watched) { hasPhoto = true }
+            Box(
+                Modifier.fillMaxSize().background(
+                    if (hasPhoto) Brush.verticalGradient(0f to Color.Black.copy(alpha = 0.4f), 0.18f to Color.Transparent, 0.62f to Color.Transparent, 1f to Color(0xE608050A))
+                    else Brush.verticalGradient(0f to Color.Black.copy(alpha = 0.35f), 0.22f to Color.Transparent, 0.45f to Color.Transparent, 1f to Color(0xEB08050A)),
+                ),
+            )
             Column(Modifier.fillMaxSize().padding((cw * 0.07f).dp), verticalArrangement = Arrangement.SpaceBetween) {
                 FlowRow(Modifier.padding(end = 34.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                     PlatformBadge(r.primaryPlatform, 10.5.sp)
@@ -230,8 +245,9 @@ fun PosterCard(
                     if (r.isExpected && !out) Tag("Expected", color = Palette.Bulb, border = Palette.Bulb.copy(alpha = 0.5f))
                 }
                 Column(verticalArrangement = Arrangement.spacedBy((cw * 0.035f).dp)) {
-                    VerdictChip(r, today, fontSize = 9.5.sp)
-                    Text(
+                    // A real poster carries its own title art, so chips and ratings move to the caption below it.
+                    if (!hasPhoto) VerdictChip(r, today, fontSize = 9.5.sp)
+                    if (!hasPhoto) Text(
                         r.title.uppercase(),
                         fontFamily = Display,
                         fontWeight = FontWeight.Black,
@@ -241,7 +257,7 @@ fun PosterCard(
                         maxLines = 4,
                         overflow = TextOverflow.Ellipsis,
                     )
-                    Ratings(r, fontSize = 11.sp)
+                    if (!hasPhoto) Ratings(r, fontSize = 11.sp)
                     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                         Text(r.langName.uppercase(), color = Color(0xFFE9DFEC), fontSize = 10.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 0.6.sp)
                         Text((r.ott?.let { shortDate(it) } ?: "TBA").uppercase(), color = Color(0xFFE9DFEC), fontSize = 10.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 0.6.sp)
@@ -270,15 +286,48 @@ fun PosterCard(
                 modifier = Modifier.align(Alignment.TopEnd).padding(7.dp),
             )
         }
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(
-                r.genres.take(2).joinToString(" · ").ifEmpty { if (r.isSeries) "Series" else "Film" },
-                style = MaterialTheme.typography.bodySmall,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-                modifier = Modifier.weight(1f),
+        Column(verticalArrangement = Arrangement.spacedBy(1.dp)) {
+            Text(r.title, fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = Palette.Ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (hasPhoto && (r.verdictInfo != null || r.reception != null || r.imdb != null || r.bms != null)) FlowRow(
+                Modifier.padding(vertical = 2.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp),
+                itemVerticalAlignment = Alignment.CenterVertically,
+            ) {
+                VerdictChip(r, today, fontSize = 9.5.sp)
+                Ratings(r, fontSize = 11.5.sp)
+            }
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                Text(
+                    r.genres.take(2).joinToString(" · ").ifEmpty { if (r.isSeries) "Series" else "Film" },
+                    style = MaterialTheme.typography.bodySmall,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f),
+                )
+                if ((mark?.rating ?: 0) > 0) Text("★".repeat(mark!!.rating), color = Palette.Bulb, fontSize = 12.sp)
+            }
+        }
+    }
+}
+
+/**
+ * The TMDB photo when there is one, laid over the drawn artwork, so a missing poster, a blocked image
+ * host or no network all quietly show the artwork instead. [onPhoto] fires once the photo has loaded.
+ */
+@Composable
+fun PosterImage(r: Release, url: String?, modifier: Modifier = Modifier, dimmed: Boolean = false, onPhoto: () -> Unit = {}) {
+    Box(modifier) {
+        PosterArt(r, Modifier.fillMaxSize(), dimmed = dimmed && url == null)
+        if (url != null) {
+            AsyncImage(
+                model = ImageRequest.Builder(LocalPlatformContext.current).data(url).crossfade(true).build(),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                onSuccess = { onPhoto() },
+                modifier = Modifier.fillMaxSize(),
             )
-            if ((mark?.rating ?: 0) > 0) Text("★".repeat(mark!!.rating), color = Palette.Bulb, fontSize = 12.sp)
+            if (dimmed) Box(Modifier.fillMaxSize().background(Color.Black.copy(alpha = 0.55f)))
         }
     }
 }

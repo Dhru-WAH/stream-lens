@@ -77,7 +77,7 @@ fun DetailSheet(id: String, vm: AppViewModel, onDismiss: () -> Unit) {
     ) {
         Column(Modifier.verticalScroll(rememberScrollState())) {
             Box(Modifier.fillMaxWidth().aspectRatio(16f / 10f)) {
-                PosterArt(r, Modifier.fillMaxSize())
+                PosterImage(r, r.backdrop ?: r.poster, Modifier.fillMaxSize())
                 Box(Modifier.fillMaxSize().background(Brush.verticalGradient(0f to Color.Black.copy(alpha = 0.25f), 0.3f to Color.Transparent, 0.98f to Palette.Bg2)))
                 Column(Modifier.align(Alignment.BottomStart).padding(horizontal = 20.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {

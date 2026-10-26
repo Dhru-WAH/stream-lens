@@ -37,9 +37,14 @@ push reaches the phone. Work only inside this repository and touch no file other
    BookMyShow (`bms`, `bmsVotes`) when visible, box-office `verdict`, worldwide `grossAmt`,
    `budgetAmt`, `breakEvenAmt` and `breakEvenKind`, critic `reception` / `criticScore`.
    Films still in cinemas: update the gross; give a verdict only once the run is effectively over.
-5. Drop titles whose `ottDate` is more than 120 days old **and** that have nothing new to add; keep
+5. **Posters:** run `python3 tools/posters.py`. It finds TMDB posters for titles that don't have one yet
+   (token in `~/.config/streamlens/tmdb_token`, never commit it) and writes `poster`, `backdrop`, `tmdbId`,
+   `tmdbType`. Don't hand-edit those fields; if the script can't match a title, leave it (the app draws art).
+   If you renamed a title or the script shows a clearly wrong match, delete that title's four poster fields
+   and rerun.
+6. Drop titles whose `ottDate` is more than 120 days old **and** that have nothing new to add; keep
    everything else.
-6. Set `updatedAt` to now (IST, ISO 8601), set `count`, keep the list sorted by `ottDate` newest first
+7. Set `updatedAt` to now (IST, ISO 8601), set `count`, keep the list sorted by `ottDate` newest first
    (no-date titles first), validate (see below), then commit and push to `main` with a message such as
    `Refresh: +3 new, 5 updated (2026-10-27)`. If nothing changed, do not commit.
 
