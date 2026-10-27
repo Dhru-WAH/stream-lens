@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-10-26T14:25:28+05:30",
- "count": 110,
+ "updatedAt": "2026-10-27T11:15:54+05:30",
+ "count": 111,
  "titles": [
   {
    "id": "vibe-2026",
@@ -710,6 +710,26 @@
    "tmdbType": "tv",
    "poster": "https://image.tmdb.org/t/p/w500/qPtkGZfXkwkacR2oH3zbvdvFfH9.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/hP5pMJfxbY9p72LgEY6j9qGidtE.jpg"
+  },
+  {
+   "id": "dilwali-diwali-2026",
+   "title": "Dilwali Diwali",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-11-05",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": null,
+   "genres": [
+    "Family",
+    "Drama"
+   ],
+   "cast": "Mihir Ahuja, Manoj Pahwa, Neelu Kohli, Aurra Bhatnagar",
+   "director": "Ritesh Menon",
+   "synopsis": "A son working abroad comes home for Diwali to the high-rise flat he bought his parents and learns a house is not the same as a home.",
+   "source": "https://www.bollywoodhungama.com/news/features/dilwali-diwali-mihir-ahuja-manoj-pahwa-and-neelu-kohli-starrer-festive-family-film-to-premiere-on-netflix-on-november-5/"
   },
   {
    "id": "sub-inspector-yugandhar-2026",
