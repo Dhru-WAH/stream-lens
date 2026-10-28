@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updatedAt": "2026-10-27T11:15:54+05:30",
+ "updatedAt": "2026-10-28T11:31:19+05:30",
  "count": 111,
  "titles": [
   {
@@ -56,8 +56,8 @@
    "director": "Aakash Kaushik",
    "synopsis": "A Pakistani spy who loses his memory ends up in a comic mess of mistaken identity.",
    "source": "https://haanji.com.au/udta-teer-ayushmann-khurrana-release-date-cast-story",
-   "imdb": 6.6,
-   "imdbVotes": "195",
+   "imdb": 6.8,
+   "imdbVotes": "864",
    "ratingSource": "https://www.justwatch.com/in/movie/udta-teer-2026",
    "reception": "Mixed",
    "criticScore": "Bollywood Hungama 3/5",
@@ -132,8 +132,8 @@
    "synopsis": "Vijay Deverakonda leads this large-scale period action drama; Netflix holds the rights and streaming is reported for around mid-November.",
    "source": "https://www.deccanchronicle.com/amp/entertainment/ott/vijay-deverakondas-ranabaali-ott-release-details-1996588",
    "imdb": 7.6,
-   "imdbVotes": "5.7K",
-   "ratingSource": "https://www.justwatch.com/us/movie/ranabaali",
+   "imdbVotes": "5.8K",
+   "ratingSource": "https://www.justwatch.com/in/movie/ranabaali",
    "reception": "Mixed",
    "criticScore": "123telugu 2.75/5",
    "boxOffice": "₹71 cr worldwide (still running)",
@@ -287,44 +287,6 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/67FsF2kpgEZ1T5Qos4adgqm9dLf.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/nq73eRdEooripf3k0XHLtX14zyC.jpg"
-  },
-  {
-   "id": "don-t-trouble-the-trouble-2026",
-   "title": "Don't Trouble the Trouble",
-   "year": 2026,
-   "lang": "te",
-   "kind": "movie",
-   "platform": "Netflix",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "theatricalDate": "2026-10-02",
-   "genres": [
-    "Fantasy",
-    "Action",
-    "Comedy"
-   ],
-   "cast": "Fahadh Faasil, Saurabh Sachdeva, Ssara Palekar",
-   "director": "Shashank Yeleti",
-   "dubs": [
-    "ta",
-    "ml"
-   ],
-   "synopsis": "A magic-tinged action comedy presented by SS Rajamouli; Netflix is the post-theatrical home, date not yet announced.",
-   "source": "https://www.filmibeat.com/telugu/movies/dont-trouble-the-trouble/ott.html",
-   "reception": "Negative",
-   "criticScore": "123telugu 2.75/5",
-   "verdict": "Flop",
-   "verdictSource": "https://www.koimoi.com/box-office/dont-trouble-the-trouble-box-office-closing-collection-wraps-up-as-fahadh-faasils-2nd-flop-in-a-row/",
-   "boxOffice": "₹5.4 cr India gross",
-   "money": "INR",
-   "budgetAmt": 10,
-   "grossAmt": 5.4,
-   "budgetNote": "₹10 cr reported (Koimoi). Gross is India gross; Sacnilk ₹5.21 cr",
-   "budgetSource": "https://www.koimoi.com/box-office/dont-trouble-the-trouble-box-office-closing-collection-wraps-up-as-fahadh-faasils-2nd-flop-in-a-row/",
-   "tmdbId": 1261763,
-   "tmdbType": "movie",
-   "poster": "https://image.tmdb.org/t/p/w500/A0uqqpeLhGfOsW6muky7xvLd8Qf.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/iWVgNbAB4fCqzOPJXNLOZP4zfbK.jpg"
   },
   {
    "id": "dhindora-season-2-2026",
@@ -732,6 +694,45 @@
    "source": "https://www.bollywoodhungama.com/news/features/dilwali-diwali-mihir-ahuja-manoj-pahwa-and-neelu-kohli-starrer-festive-family-film-to-premiere-on-netflix-on-november-5/"
   },
   {
+   "id": "don-t-trouble-the-trouble-2026",
+   "title": "Don't Trouble the Trouble",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Netflix",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": "2026-10-02",
+   "genres": [
+    "Fantasy",
+    "Action",
+    "Comedy"
+   ],
+   "cast": "Fahadh Faasil, Saurabh Sachdeva, Ssara Palekar",
+   "director": "Shashank Yeleti",
+   "dubs": [
+    "ta",
+    "ml"
+   ],
+   "synopsis": "A magic-tinged action comedy presented by SS Rajamouli, with Fahadh Faasil in his Telugu lead debut.",
+   "source": "https://www.123telugu.com/mnews/ott-rajamouli-backed-dont-trouble-the-trouble-locks-netflix-premiere-date-hk.html",
+   "reception": "Negative",
+   "criticScore": "123telugu 2.75/5",
+   "verdict": "Flop",
+   "verdictSource": "https://www.koimoi.com/box-office/dont-trouble-the-trouble-box-office-closing-collection-wraps-up-as-fahadh-faasils-2nd-flop-in-a-row/",
+   "boxOffice": "₹5.4 cr India gross",
+   "money": "INR",
+   "budgetAmt": 10,
+   "grossAmt": 5.4,
+   "budgetNote": "₹10 cr reported (Koimoi). Gross is India gross; Sacnilk ₹5.21 cr",
+   "budgetSource": "https://www.koimoi.com/box-office/dont-trouble-the-trouble-box-office-closing-collection-wraps-up-as-fahadh-faasils-2nd-flop-in-a-row/",
+   "tmdbId": 1261763,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/A0uqqpeLhGfOsW6muky7xvLd8Qf.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/iWVgNbAB4fCqzOPJXNLOZP4zfbK.jpg",
+   "ottDate": "2026-10-30"
+  },
+  {
    "id": "sub-inspector-yugandhar-2026",
    "title": "Sub-Inspector Yugandhar",
    "year": 2026,
@@ -981,7 +982,10 @@
    "tmdbId": 1453407,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/cEPqJ2HboM9KBj4CtVJFeCFojae.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/8I4YFWgi9IZW4VUi398A0BqLnm.jpg"
+   "backdrop": "https://image.tmdb.org/t/p/w780/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+   "imdb": 6.0,
+   "imdbVotes": "1.1K",
+   "ratingSource": "https://www.justwatch.com/in/movie/gajab-raat"
   },
   {
    "id": "chaar-yaar-2026",
@@ -1004,7 +1008,10 @@
    "tmdbId": 338918,
    "tmdbType": "tv",
    "poster": "https://image.tmdb.org/t/p/w500/z6WSxbaMdFQ9OLeHihaPJyVND4D.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ndO5LTzLPYqh8o65VLF8oReIewE.jpg"
+   "backdrop": "https://image.tmdb.org/t/p/w780/ndO5LTzLPYqh8o65VLF8oReIewE.jpg",
+   "imdb": 7.5,
+   "imdbVotes": "116",
+   "ratingSource": "https://www.justwatch.com/in/tv-show/chaar-yaar"
   },
   {
    "id": "varam-2026",
