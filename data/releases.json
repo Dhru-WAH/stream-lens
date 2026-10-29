@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updatedAt": "2026-10-28T11:31:19+05:30",
+ "updatedAt": "2026-10-29T11:18:22+05:30",
  "count": 111,
  "titles": [
   {
@@ -691,7 +691,11 @@
    "cast": "Mihir Ahuja, Manoj Pahwa, Neelu Kohli, Aurra Bhatnagar",
    "director": "Ritesh Menon",
    "synopsis": "A son working abroad comes home for Diwali to the high-rise flat he bought his parents and learns a house is not the same as a home.",
-   "source": "https://www.bollywoodhungama.com/news/features/dilwali-diwali-mihir-ahuja-manoj-pahwa-and-neelu-kohli-starrer-festive-family-film-to-premiere-on-netflix-on-november-5/"
+   "source": "https://www.bollywoodhungama.com/news/features/dilwali-diwali-mihir-ahuja-manoj-pahwa-and-neelu-kohli-starrer-festive-family-film-to-premiere-on-netflix-on-november-5/",
+   "tmdbId": 1810711,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/cV31QO65DA6mk4Hd6S7QncVq85T.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jjq0mxPwmyYVGgpIze98WLRoODI.jpg"
   },
   {
    "id": "don-t-trouble-the-trouble-2026",
