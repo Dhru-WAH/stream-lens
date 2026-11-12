@@ -77,12 +77,35 @@ data class Release(
     val score: Double get() = imdb ?: bms ?: -1.0
     val verdictInfo: Verdict? get() = Verdict.of(verdict)
 
+    /** "9.9K" -> 9900, "1.2M" -> 1200000, "805" -> 805; null when missing or unreadable. */
+    val imdbVoteCount: Int?
+        get() {
+            val s = imdbVotes?.trim()?.replace(",", "")?.uppercase() ?: return null
+            val mult = when (s.lastOrNull()) { 'K' -> 1_000.0; 'M' -> 1_000_000.0; else -> 1.0 }
+            return s.trimEnd('K', 'M').trim().toDoubleOrNull()?.let { (it * mult).toInt() }
+        }
+
+    /**
+     * Must watch: critics liked it and audiences agree in numbers. Box-office verdict is ignored on
+     * purpose, so a well-loved flop still qualifies. Thresholds live in [MUST_WATCH_IMDB] / [MUST_WATCH_VOTES].
+     */
+    fun isMustWatch(today: LocalDate): Boolean =
+        isOut(today) && reception == "Positive" &&
+            (imdb ?: 0.0) >= MUST_WATCH_IMDB && (imdbVoteCount ?: 0) >= MUST_WATCH_VOTES
+
     /** Shown in the app at all (the feed follows these rules too; this guards against slips). */
     val isVisible: Boolean get() = lang in LANGS && !BLOCKED_PLATFORM.containsMatchIn(platform.orEmpty())
 
     companion object {
-        val LANGS = linkedMapOf("te" to "Telugu", "hi" to "Hindi", "en" to "English")
+        val LANGS = linkedMapOf(
+            "te" to "Telugu", "hi" to "Hindi", "en" to "English",
+            "ta" to "Tamil", "ml" to "Malayalam", "kn" to "Kannada",
+        )
+        /** Languages the feed only carries when well rated or high-profile (see data/REFRESH.md). */
+        val OTHER_LANGS = setOf("ta", "ml", "kn")
         private val BLOCKED_PLATFORM = Regex("apple|waves", RegexOption.IGNORE_CASE)
+        const val MUST_WATCH_IMDB = 7.5
+        const val MUST_WATCH_VOTES = 5_000
     }
 }
 

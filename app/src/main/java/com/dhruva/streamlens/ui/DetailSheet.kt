@@ -84,6 +84,7 @@ fun DetailSheet(id: String, vm: AppViewModel, onDismiss: () -> Unit) {
                         PlatformBadge(r.primaryPlatform, 12.sp)
                         Tag(r.langName, fontSize = 12.sp)
                         if (r.isSeries) Tag("Series", fontSize = 12.sp)
+                        if (r.isMustWatch(today)) MustWatchChip(12.sp)
                     }
                     Text(r.title.uppercase(), fontFamily = Display, fontWeight = FontWeight.Black, fontSize = 40.sp, lineHeight = 38.sp, color = Color.White)
                     Text(whenText(r, today).uppercase(), color = Palette.Bulb, fontSize = 12.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 0.8.sp)
@@ -136,7 +137,7 @@ fun DetailSheet(id: String, vm: AppViewModel, onDismiss: () -> Unit) {
                 }
 
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    val lang = when (r.lang) { "te" -> " telugu"; "hi" -> " hindi"; else -> "" }
+                    val lang = if (r.lang == "en") "" else " " + r.langName.lowercase()
                     LinkButton("Trailer", Icons.Rounded.PlayArrow) { open("https://www.youtube.com/results?search_query=" + Uri.encode("${r.title} ${r.year ?: ""}$lang trailer")) }
                     LinkButton("Where to watch", Icons.AutoMirrored.Rounded.OpenInNew) { open("https://www.justwatch.com/in/search?q=" + Uri.encode(r.title)) }
                     r.source?.let { src -> LinkButton("Source", Icons.AutoMirrored.Rounded.OpenInNew) { open(src) } }

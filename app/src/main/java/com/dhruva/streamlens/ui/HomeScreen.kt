@@ -273,7 +273,7 @@ private fun Controls(filters: Filters, query: String, vm: AppViewModel, onOpenFi
             horizontalArrangement = Arrangement.spacedBy(6.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            listOf("all" to "All", "te" to "Telugu", "hi" to "Hindi", "en" to "English").forEach { (code, label) ->
+            (listOf("all" to "All") + Release.LANGS.toList()).forEach { (code, label) ->
                 Chip(label, filters.lang == code) { vm.updateFilters { it.copy(lang = code) } }
             }
             if (filters.tab != Tab.UPCOMING) {
@@ -376,7 +376,7 @@ private fun FilterSheet(filters: Filters, platforms: List<Pair<String, Int>>, vm
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true), containerColor = Palette.Bg2) {
         Column(Modifier.padding(horizontal = 20.dp).padding(bottom = 28.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
             Text("FILTERS", fontFamily = Display, fontWeight = FontWeight.Black, fontSize = 26.sp)
-            SwitchRow("Has Telugu audio", "Telugu films plus Hindi or English films dubbed in Telugu", filters.teluguAudio) { v ->
+            SwitchRow("Has Telugu audio", "Telugu films plus films from other languages dubbed in Telugu", filters.teluguAudio) { v ->
                 vm.updateFilters { it.copy(teluguAudio = v) }
             }
             SwitchRow("Unwatched only", "Hide what you've already ticked on the Streaming tab", filters.unwatchedOnly) { v ->

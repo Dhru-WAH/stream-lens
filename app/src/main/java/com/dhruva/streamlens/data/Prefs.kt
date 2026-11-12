@@ -26,11 +26,14 @@ data class AlertPrefs(
     val newTelugu: Boolean = true,
     val newHindi: Boolean = false,
     val newEnglish: Boolean = false,
+    /** Tamil, Malayalam and Kannada (the feed only carries the good ones). */
+    val newOther: Boolean = false,
 ) {
     fun wantsNew(lang: String) = when (lang) {
         "te" -> newTelugu
         "hi" -> newHindi
         "en" -> newEnglish
+        in Release.OTHER_LANGS -> newOther
         else -> false
     }
 }

@@ -103,6 +103,7 @@ fun SettingsScreen(vm: AppViewModel, onBack: () -> Unit) {
                 SwitchRow("New Telugu releases", alerts.newTelugu) { v -> vm.updateAlerts { it.copy(newTelugu = v) } }
                 SwitchRow("New Hindi releases", alerts.newHindi) { v -> vm.updateAlerts { it.copy(newHindi = v) } }
                 SwitchRow("New English releases", alerts.newEnglish) { v -> vm.updateAlerts { it.copy(newEnglish = v) } }
+                SwitchRow("New Tamil, Malayalam & Kannada releases", alerts.newOther) { v -> vm.updateAlerts { it.copy(newOther = v) } }
                 Text("Checked once a day around 7 pm.", style = MaterialTheme.typography.bodySmall)
             }
 

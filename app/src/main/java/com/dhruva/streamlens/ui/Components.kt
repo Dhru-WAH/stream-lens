@@ -150,6 +150,20 @@ fun VerdictChip(r: Release, today: LocalDate, fontSize: TextUnit = 10.5.sp) {
     }
 }
 
+/** Amber "Must watch" stamp, shown next to the platform badge on tiles and in the details. */
+@Composable
+fun MustWatchChip(fontSize: TextUnit = 10.5.sp) {
+    Text(
+        "★ MUST WATCH",
+        color = Palette.BulbInk,
+        fontSize = fontSize,
+        fontWeight = FontWeight.ExtraBold,
+        letterSpacing = 0.5.sp,
+        maxLines = 1,
+        modifier = Modifier.clip(RoundedCornerShape(5.dp)).background(Palette.Bulb).padding(horizontal = 6.dp, vertical = 2.dp),
+    )
+}
+
 @Composable
 fun ScoreChip(label: String, value: Double, labelBg: Color, labelInk: Color, valueInk: Color, fontSize: TextUnit = 12.sp) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -241,6 +255,7 @@ fun PosterCard(
             Column(Modifier.fillMaxSize().padding((cw * 0.07f).dp), verticalArrangement = Arrangement.SpaceBetween) {
                 FlowRow(Modifier.padding(end = 34.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                     PlatformBadge(r.primaryPlatform, 10.5.sp)
+                    if (r.isMustWatch(today)) MustWatchChip(9.5.sp)
                     if (r.isSeries) Tag("Series")
                     if (r.isExpected && !out) Tag("Expected", color = Palette.Bulb, border = Palette.Bulb.copy(alpha = 0.5f))
                 }

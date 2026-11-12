@@ -147,7 +147,7 @@ class AppViewModel(application: Application) : AndroidViewModel(application) {
     val lastSync: Long get() = app.prefs.lastSync
 }
 
-private val langRank = mapOf("te" to 0, "hi" to 1, "en" to 2)
+private val langRank = mapOf("te" to 0, "hi" to 1, "en" to 2, "ta" to 3, "ml" to 4, "kn" to 5)
 private val byDateDesc = compareByDescending<Release> { it.ottDate ?: "" }.thenBy { langRank[it.lang] ?: 3 }.thenBy { it.title }
 private val byDateAsc = compareBy<Release> { it.ottDate ?: "9999" }.thenBy { langRank[it.lang] ?: 3 }.thenBy { it.title }
 
