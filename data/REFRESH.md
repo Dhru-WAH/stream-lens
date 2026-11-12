@@ -11,7 +11,16 @@ push reaches the phone. Work only inside this repository and touch no file other
 - **Languages:** Telugu (`te`): all of them, including small and direct-to-OTT films. Hindi (`hi`):
   theatrical films reaching OTT plus notable direct-to-OTT films. English (`en`): only notable,
   high-profile films available in India.
-- **Never include** Tamil, Malayalam, Kannada or any other language, even when dubbed into Telugu.
+- **Tamil (`ta`), Malayalam (`ml`), Kannada (`kn`): only the ones worth watching.** The goal is good
+  films, not a complete list. Include a title when it is either
+  - **well rated:** IMDb 7.0+ from at least ~2K votes, or clearly positive reviews from critics
+    (e.g. Bethlehem Kudumba Unit), or
+  - **high-profile:** a big-star or big-budget film people will talk about (e.g. Jailer 2), whatever
+    its rating; fill the ratings so the app can show whether it actually holds up.
+  Skip small or poorly reviewed films in these languages. Record the original language in `lang`, and list
+  Telugu / Hindi / English audio tracks in `dubs` (the app's "Has Telugu audio" filter uses it).
+  Don't include upcoming titles in these languages unless they are high-profile.
+- **Never include** any other language (Bengali, Marathi, Korean…).
   Never include titles whose only platform is Apple TV or WAVES OTT.
 - **Web series** go in too, with `"kind": "series"` (the app shows Movies and Series separately):
   Telugu: all notable original series and new seasons (Aha, ETV Win, ZEE5, JioHotstar, Prime Video, Netflix…);
@@ -58,7 +67,7 @@ titles that are already complete. Keep total web searches under about 150 per ru
 {
   "id": "the-paradise-2026",            // slug(title)-year, stable forever; never rename an id
   "title": "The Paradise", "year": 2026,
-  "lang": "te",                          // te | hi | en
+  "lang": "te",                          // te | hi | en | ta | ml | kn
   "kind": "movie",                       // movie | series
   "platform": "Netflix",
   "ottDate": "2026-10-22",               // YYYY-MM-DD, null if not announced
@@ -66,7 +75,7 @@ titles that are already complete. Keep total web searches under about 150 per ru
   "status": "streaming",                 // streaming | upcoming (only matters when ottDate is null)
   "theatricalDate": "2026-09-24",        // null for direct-to-OTT
   "genres": ["Action", "Drama"], "cast": "Nani, …", "director": "Srikanth Odela",
-  "dubs": ["hi"],                        // other audio languages (te/hi/en only matter to the app)
+  "dubs": ["hi"],                        // other audio languages (te/hi/en matter most to the app)
   "synopsis": "One plain sentence in your own words.",
   "source": "https://…",
   "imdb": 6.4, "imdbVotes": "9.9K", "ratingSource": "https://…",
@@ -89,5 +98,5 @@ Top level: `{"schema": 1, "updatedAt": "…", "count": N, "titles": [ … ]}`.
 ## Validate before pushing
 
 ```bash
-python3 -c "import json;d=json.load(open('data/releases.json'));t=d['titles'];ids=[x['id'] for x in t];assert len(ids)==len(set(ids));assert all(x['lang'] in ('te','hi','en') for x in t);assert d['count']==len(t);print('ok',len(t))"
+python3 -c "import json;d=json.load(open('data/releases.json'));t=d['titles'];ids=[x['id'] for x in t];assert len(ids)==len(set(ids));assert all(x['lang'] in ('te','hi','en','ta','ml','kn') for x in t);assert d['count']==len(t);print('ok',len(t))"
 ```

@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-10-29T11:18:22+05:30",
- "count": 111,
+ "updatedAt": "2026-11-12T15:38:50+05:30",
+ "count": 145,
  "titles": [
   {
    "id": "vibe-2026",
@@ -62,10 +62,10 @@
    "reception": "Mixed",
    "criticScore": "Bollywood Hungama 3/5",
    "verdictSource": "https://www.sacnilk.com/movie/Udta_Teer_2026",
-   "boxOffice": "₹27.6 cr worldwide (first 3 days)",
+   "boxOffice": "₹67.9 cr worldwide (20 days, still running)",
    "money": "INR",
-   "grossAmt": 27.6,
-   "budgetNote": "No budget reported; gross is first 3 days only",
+   "grossAmt": 67.85,
+   "budgetNote": "No budget reported; gross is Sacnilk 20-day total, film still running",
    "tmdbId": 1375156,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/tvICKypVlW7Iio4KVs7NousbSKi.jpg",
@@ -105,49 +105,6 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg"
-  },
-  {
-   "id": "ranabaali-2026",
-   "title": "Ranabaali",
-   "year": 2026,
-   "lang": "te",
-   "kind": "movie",
-   "platform": "Netflix",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "theatricalDate": "2026-10-16",
-   "genres": [
-    "Action",
-    "Drama",
-    "Period"
-   ],
-   "cast": "Vijay Deverakonda, Rashmika Mandanna, Arnold Vosloo",
-   "director": "Rahul Sankrityan",
-   "dubs": [
-    "hi",
-    "ta",
-    "kn",
-    "ml"
-   ],
-   "synopsis": "Vijay Deverakonda leads this large-scale period action drama; Netflix holds the rights and streaming is reported for around mid-November.",
-   "source": "https://www.deccanchronicle.com/amp/entertainment/ott/vijay-deverakondas-ranabaali-ott-release-details-1996588",
-   "imdb": 7.6,
-   "imdbVotes": "5.8K",
-   "ratingSource": "https://www.justwatch.com/in/movie/ranabaali",
-   "reception": "Mixed",
-   "criticScore": "123telugu 2.75/5",
-   "boxOffice": "₹71 cr worldwide (still running)",
-   "money": "INR",
-   "budgetAmt": 120,
-   "grossAmt": 71,
-   "breakEvenAmt": 59,
-   "breakEvenKind": "share",
-   "budgetNote": "₹120 cr (Wikipedia/Samayam, Esquire); Koimoi ₹120–150 cr. BE: WW theatrical business ₹59 cr incl. GST, ~₹108 cr gross break-even (Gulte)",
-   "budgetSource": "https://en.wikipedia.org/wiki/Ranabaali",
-   "tmdbId": 1389379,
-   "tmdbType": "movie",
-   "poster": "https://image.tmdb.org/t/p/w500/cXaCyYYbafVyMrs8rwKmxezBYPJ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg"
   },
   {
    "id": "panchayat-season-5-2026",
@@ -197,42 +154,6 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/sGVN0bh4xQtJIHiXFy2JyWVOiMd.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/pZWvngm47TEmrnV6xDAoiIc16gP.jpg"
-  },
-  {
-   "id": "haiwaan-2026",
-   "title": "Haiwaan",
-   "year": 2026,
-   "lang": "hi",
-   "kind": "movie",
-   "platform": "SonyLIV",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "theatricalDate": "2026-09-11",
-   "genres": [
-    "Crime",
-    "Thriller"
-   ],
-   "cast": "Akshay Kumar, Saif Ali Khan, Shriya Pilgaonkar",
-   "director": "Priyadarshan",
-   "synopsis": "A visually impaired man faces a killer in this Hindi remake of the Malayalam film Oppam.",
-   "source": "https://www.newsbytesapp.com/news/entertainment/haiwaan-ott-release-details/story",
-   "imdb": 4.3,
-   "imdbVotes": "710",
-   "ratingSource": "https://www.justwatch.com/in/movie/haiwaan-2026",
-   "reception": "Negative",
-   "criticScore": "Bollywood Hungama 2.5/5",
-   "verdict": "Flop",
-   "verdictSource": "https://www.bollywoodhungama.com/movie/haiwaan/box-office/",
-   "boxOffice": "₹11.5 cr worldwide",
-   "money": "INR",
-   "budgetAmt": 107.5,
-   "grossAmt": 11.5,
-   "budgetNote": "₹100–115 cr reported, unconfirmed (Koimoi; Flickonclick ~₹115 cr making cost, ~₹140 cr incl. P&A)",
-   "budgetSource": "https://www.koimoi.com/box-office/haiwaan-box-office-vs-oppam-akshay-kumar-saif-ali-khans-remake-needs-to-earn-115-crore-to-beat-this-milestone-by-mohanlals-og/",
-   "tmdbId": 1475799,
-   "tmdbType": "movie",
-   "poster": "https://image.tmdb.org/t/p/w500/ykXYDPPvoPhTaBeQ90OibCaCOWX.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/zZgRsklJ46oGcHOwPnhtuiQ3NHH.jpg"
   },
   {
    "id": "family-business-2026",
@@ -289,71 +210,6 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/nq73eRdEooripf3k0XHLtX14zyC.jpg"
   },
   {
-   "id": "dhindora-season-2-2026",
-   "title": "Dhindora Season 2",
-   "year": 2026,
-   "lang": "hi",
-   "kind": "series",
-   "platform": "Netflix",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "genres": [
-    "Comedy",
-    "Family"
-   ],
-   "cast": "Bhuvan Bam, Sanjeeda Shaikh",
-   "director": "Sneha Shetty Kohli",
-   "synopsis": "Bhuvan Bam's YouTube family comedy moves to Netflix for a second season, with Bam again playing several characters around Titu Mama.",
-   "source": "https://telanganatoday.com/bhuvan-bam-says-dhindora-2-stays-true-to-its-roots",
-   "tmdbId": 275204,
-   "tmdbType": "tv",
-   "poster": "https://image.tmdb.org/t/p/w500/13HWuGf57sIJNzmvsucpoMbZdxW.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/2QsmesFzm5WaP70pRmCbVBzvXDA.jpg"
-  },
-  {
-   "id": "comrade-kalyan-2026",
-   "title": "Comrade Kalyan",
-   "year": 2026,
-   "lang": "te",
-   "kind": "movie",
-   "platform": "Prime Video",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "theatricalDate": "2026-10-09",
-   "genres": [
-    "Comedy",
-    "Drama",
-    "Period"
-   ],
-   "cast": "Sree Vishnu, Mahima Nambiar, Shine Tom Chacko",
-   "director": "Janakiram Marella",
-   "dubs": [
-    "ta",
-    "kn",
-    "ml",
-    "hi"
-   ],
-   "synopsis": "A struggling theatre owner keeps his cinema afloat by screening revolutionary films.",
-   "source": "https://www.newsbytesapp.com/news/entertainment/comrade-kalyan-ott-release-details/story",
-   "imdb": 9.1,
-   "imdbVotes": "1.6K",
-   "ratingSource": "https://www.justwatch.com/us/movie/comrade-kalyan",
-   "reception": "Positive",
-   "criticScore": "123telugu 3/5",
-   "boxOffice": "₹19.6 cr worldwide (still running)",
-   "money": "INR",
-   "budgetAmt": 20,
-   "grossAmt": 19.6,
-   "breakEvenAmt": 12,
-   "breakEvenKind": "gross",
-   "budgetNote": "₹20 cr reported (Koimoi). BE: ~₹12 cr gross in Telugu states (Gulte); SVC paid ₹5 cr refundable advance",
-   "budgetSource": "https://www.koimoi.com/box-office/comrade-kalyan-box-office-collection-day-12-surpasses-lifetime-of-sree-vishnus-vishnu-vinyasam/",
-   "tmdbId": 1428295,
-   "tmdbType": "movie",
-   "poster": "https://image.tmdb.org/t/p/w500/pvRJWA4WnaoPeQ7Fs7G9P7EKu6h.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/zsAbkmTkGE3l98Jhvdiy7ybNFo8.jpg"
-  },
-  {
    "id": "cocoons-2026",
    "title": "Cocoons",
    "year": 2026,
@@ -372,6 +228,31 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/r0bpIupxdEk64Qm4kDbttQ8OQf8.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/hBTlG9e83P9EjgPNHP42MvzxWSe.jpg"
+  },
+  {
+   "id": "aadarsha-kutumbam-house-no-47-2026",
+   "title": "Aadarsha Kutumbam House No: 47",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Netflix",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "theatricalDate": "2026-10-30",
+   "genres": [
+    "Family",
+    "Comedy",
+    "Crime"
+   ],
+   "cast": "Venkatesh Daggubati, Srinidhi Shetty, Nara Rohith, Nivetha Pethuraj, Rao Ramesh",
+   "director": "Trivikram Srinivas",
+   "synopsis": "Venkatesh and Trivikram team up for a family entertainer with a crime twist.",
+   "source": "https://www.filmibeat.com/telugu/movies/aadarsha-kutumbam-house-no-47-ak-47/ott.html",
+   "boxOffice": "₹73.8 cr worldwide (still running)",
+   "money": "INR",
+   "grossAmt": 73.81,
+   "budgetNote": "Gross from Koimoi, film still running",
+   "budgetSource": "https://www.koimoi.com/box-office/hits-flops/tollywood-telugu-box-office-collection-verdicts/"
   },
   {
    "id": "the-further-mis-adventures-of-cliff-booth-2026",
@@ -513,6 +394,29 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/nuLUxzJ4bVVxafru5lgWfmcPOm7.jpg"
   },
   {
+   "id": "dhindora-season-2-2026",
+   "title": "Dhindora Season 2",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-11-20",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "genres": [
+    "Comedy",
+    "Family"
+   ],
+   "cast": "Bhuvan Bam, Sanjeeda Shaikh",
+   "director": "Sneha Shetty Kohli",
+   "synopsis": "Bhuvan Bam's YouTube family comedy moves to Netflix for a second season, with Bam again playing several characters around Titu Mama.",
+   "source": "https://telanganatoday.com/bhuvan-bams-dhindora-2-gets-november-20-release-date-on-netflix",
+   "tmdbId": 275204,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/13HWuGf57sIJNzmvsucpoMbZdxW.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2QsmesFzm5WaP70pRmCbVBzvXDA.jpg"
+  },
+  {
    "id": "madden-2026",
    "title": "Madden",
    "year": 2026,
@@ -535,6 +439,70 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/iNKyRudHcd2oXV5eaWE0LbixkX3.jpg"
+  },
+  {
+   "id": "kiku-chiranjeevi-2026",
+   "title": "Kiku Chiranjeevi",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Aha",
+   "ottDate": "2026-11-14",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "genres": [
+    "Thriller",
+    "Romance",
+    "Medical"
+   ],
+   "cast": "Kiku Yanamala, Kashish Khan, Tanikella Bharani, Easwari Rao",
+   "director": "Shubha Sai Venkat",
+   "synopsis": "An Araku photographer born with his heart on the right side falls for a visitor who is being stalked by a masked attacker.",
+   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html"
+  },
+  {
+   "id": "ranabaali-2026",
+   "title": "Ranabaali",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-11-13",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": "2026-10-16",
+   "genres": [
+    "Action",
+    "Drama",
+    "Period"
+   ],
+   "cast": "Vijay Deverakonda, Rashmika Mandanna, Arnold Vosloo",
+   "director": "Rahul Sankrityan",
+   "dubs": [
+    "hi",
+    "ta",
+    "kn",
+    "ml"
+   ],
+   "synopsis": "Vijay Deverakonda leads this large-scale period action drama from director Rahul Sankrityan.",
+   "source": "https://www.outlookindia.com/art-entertainment/south-cinema/ranabaali-on-ott-where-to-watch-vijay-deverakonda-and-rashmika-mandannas-period-drama",
+   "imdb": 7.6,
+   "imdbVotes": "5.8K",
+   "ratingSource": "https://www.justwatch.com/in/movie/ranabaali",
+   "reception": "Mixed",
+   "criticScore": "123telugu 2.75/5",
+   "boxOffice": "₹81.9 cr worldwide (still running)",
+   "money": "INR",
+   "budgetAmt": 120,
+   "grossAmt": 81.94,
+   "breakEvenAmt": 59,
+   "breakEvenKind": "share",
+   "budgetNote": "₹120 cr (Wikipedia/Samayam, Esquire); Koimoi ₹120–150 cr. BE: WW theatrical business ₹59 cr incl. GST, ~₹108 cr gross break-even (Gulte)",
+   "budgetSource": "https://en.wikipedia.org/wiki/Ranabaali",
+   "tmdbId": 1389379,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/cXaCyYYbafVyMrs8rwKmxezBYPJ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg"
   },
   {
    "id": "student-of-the-year-after-dark-2026",
@@ -572,7 +540,7 @@
    "cast": "Kareena Kapoor Khan, Prithviraj Sukumaran",
    "director": "Meghna Gulzar",
    "synopsis": "A crime thriller from Meghna Gulzar starring Kareena Kapoor Khan and Prithviraj Sukumaran.",
-   "source": "https://www.newsbytesapp.com/news/entertainment/daayra-ott-release-details-and-platform-information/story",
+   "source": "https://www.newsbytesapp.com/news/entertainment/kapoor-khan-and-sukumarans-daayra-lands-on-netflix-november-13/tldr",
    "imdb": 7.1,
    "imdbVotes": "4.4K",
    "ratingSource": "https://www.justwatch.com/in/movie/daayra",
@@ -592,6 +560,145 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/rbwmf04kpX1o3zbbOS6Y7woF2Ku.jpg"
   },
   {
+   "id": "happy-journey-2026",
+   "title": "Happy Journey",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Sun NXT",
+   "ottDate": "2026-11-13",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "theatricalDate": "2026-09-18",
+   "genres": [
+    "Adventure",
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Aamani, Payal Radhakrishna, Annapurna, Jhansi, Sunaina, Vamshidhar Goud",
+   "director": "Abhiramm Naidu",
+   "dubs": [
+    "ta",
+    "ml",
+    "kn"
+   ],
+   "synopsis": "Seven women of different ages win a lucky-draw trip to Europe and find friendship and self-discovery on the road.",
+   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html",
+   "boxOffice": "₹1.2 cr worldwide",
+   "money": "INR",
+   "grossAmt": 1.17,
+   "budgetNote": "Gross from Sacnilk (14 days)",
+   "budgetSource": "https://www.sacnilk.com/movie/Happy_Journey_2026"
+  },
+  {
+   "id": "crazy-kalyanam-2026",
+   "title": "Crazy Kalyanam",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Aha",
+   "ottDate": "2026-11-13",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "theatricalDate": "2026-10-16",
+   "genres": [
+    "Romance",
+    "Comedy"
+   ],
+   "cast": "Anupama Parameswaran, Tharun Bhascker, Naresh, Kireeti Damaraju",
+   "director": "Badrappa Gajula",
+   "synopsis": "A romantic comedy about a chaotic wedding, led by Anupama Parameswaran and Tharun Bhascker.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/7-new-south-indian-ott-releases-in-november-2026-meesaya-murukku-2-nooru-kodi-vaanavil-to-the-third-murder-on-netflix-sonyliv-more",
+   "verdict": "Disaster",
+   "verdictSource": "https://www.sacnilk.com/tag/Crazy_Kalyanam_2026",
+   "boxOffice": "₹1.2 cr worldwide",
+   "money": "INR",
+   "grossAmt": 1.19,
+   "budgetNote": "Gross and verdict from Sacnilk",
+   "budgetSource": "https://www.sacnilk.com/tag/Crazy_Kalyanam_2026"
+  },
+  {
+   "id": "parivarik-manuranjan-2026",
+   "title": "Parivarik ManuRanjan",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "SonyLIV",
+   "ottDate": "2026-11-13",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": null,
+   "genres": [
+    "Romance",
+    "Comedy",
+    "Family"
+   ],
+   "cast": "Pankaj Tripathi, Aditi Rao Hydari, Brijendra Kala, Sunita Rajwar",
+   "director": "Varun V. Sharma",
+   "synopsis": "A family romantic comedy in which a house help in a man's home sets off a string of unexpected events.",
+   "source": "https://www.hollywoodreporterindia.com/features/insight/parivarik-manuranjan-aditi-rao-hydari-pankaj-tripathi-comedy-set-for-november-13-release-on-sony-liv"
+  },
+  {
+   "id": "pushpaka-vimanam-2026",
+   "title": "Pushpaka Vimanam",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "JioHotstar",
+   "ottDate": "2026-11-12",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Sci-Fi",
+    "Fantasy",
+    "Comedy"
+   ],
+   "cast": "Sai Ronak Katukuri, Madhoo Damaraju, Vadlamani Srinivas, Raghu Kumar Karumanchi",
+   "director": "Satish Reddy Mallidi",
+   "dubs": [
+    "ta",
+    "hi",
+    "kn",
+    "ml"
+   ],
+   "synopsis": "An ordinary man finds that his apartment lift can take him back from 2026 to 2016 and tries to fix old mistakes, with unexpected results.",
+   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html"
+  },
+  {
+   "id": "jailer-2-2026",
+   "title": "Jailer 2",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "ottDate": "2026-11-12",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-10-15",
+   "genres": [
+    "Action",
+    "Comedy"
+   ],
+   "cast": "Rajinikanth, SJ Suryah, Shivarajkumar, Ramya Krishnan, Vidya Balan, Mithun Chakraborty, Yogi Babu",
+   "director": "Nelson Dilipkumar",
+   "dubs": [
+    "te",
+    "hi",
+    "ml",
+    "kn"
+   ],
+   "synopsis": "Retired jailer Tiger Muthuvel Pandian goes undercover as a driver to bring down an international idol-smuggling racket that threatens his family.",
+   "source": "https://www.outlookindia.com/art-entertainment/south-cinema/rajinikanth-jailer-2-ott-release-date-out",
+   "imdb": 8,
+   "imdbVotes": "7.5K",
+   "ratingSource": "https://www.sacnilk.com/big-release/Jailer_2_2026",
+   "reception": "Mixed",
+   "criticScore": "Sacnilk critic tally: 3 positive, 5 mixed, 0 negative",
+   "boxOffice": "₹830.30 cr worldwide (Day 29, Sacnilk)",
+   "money": "INR",
+   "grossAmt": 830.3
+  },
+  {
    "id": "the-lord-of-the-rings-the-rings-of-power-season-3-2026",
    "title": "The Lord of the Rings: The Rings of Power Season 3",
    "year": 2026,
@@ -600,7 +707,7 @@
    "platform": "Prime Video",
    "ottDate": "2026-11-11",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Fantasy",
     "Drama"
@@ -614,15 +721,75 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/achmETPRJZc9QVXsMPgHwYEyNar.jpg"
   },
   {
+   "id": "heart-of-the-beast-2026",
+   "title": "Heart of the Beast",
+   "year": 2026,
+   "lang": "en",
+   "kind": "movie",
+   "platform": "Prime Video (Rent)",
+   "ottDate": "2026-11-10",
+   "dateConfirmed": false,
+   "status": "streaming",
+   "genres": [
+    "Action",
+    "Survival",
+    "Drama"
+   ],
+   "cast": "Brad Pitt, J.K. Simmons, Anna Lambe",
+   "director": "David Ayer",
+   "synopsis": "A special forces officer and his combat dog must survive the wilderness after a plane crash.",
+   "source": "https://www.flickonclick.com/new-ott-releases-november-9-15/",
+   "imdb": 7.1,
+   "imdbVotes": "47K",
+   "ratingSource": "https://www.justwatch.com/in/movie/heart-of-the-beast"
+  },
+  {
+   "id": "haiwaan-2026",
+   "title": "Haiwaan",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "SonyLIV",
+   "ottDate": "2026-11-06",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-11",
+   "genres": [
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Akshay Kumar, Saif Ali Khan, Shriya Pilgaonkar",
+   "director": "Priyadarshan",
+   "synopsis": "A visually impaired man faces a killer in this Hindi remake of the Malayalam film Oppam.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/new-ott-releases-this-week-november-2-8-im-game-haiwaan-dilwali-diwali-and-more",
+   "imdb": 4.3,
+   "imdbVotes": "710",
+   "ratingSource": "https://www.justwatch.com/in/movie/haiwaan-2026",
+   "reception": "Negative",
+   "criticScore": "Bollywood Hungama 2.5/5",
+   "verdict": "Flop",
+   "verdictSource": "https://www.bollywoodhungama.com/movie/haiwaan/box-office/",
+   "boxOffice": "₹11.5 cr worldwide",
+   "money": "INR",
+   "budgetAmt": 107.5,
+   "grossAmt": 11.5,
+   "budgetNote": "₹100–115 cr reported, unconfirmed (Koimoi; Flickonclick ~₹115 cr making cost, ~₹140 cr incl. P&A)",
+   "budgetSource": "https://www.koimoi.com/box-office/haiwaan-box-office-vs-oppam-akshay-kumar-saif-ali-khans-remake-needs-to-earn-115-crore-to-beat-this-milestone-by-mohanlals-og/",
+   "tmdbId": 1475799,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/ykXYDPPvoPhTaBeQ90OibCaCOWX.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zZgRsklJ46oGcHOwPnhtuiQ3NHH.jpg"
+  },
+  {
    "id": "the-vvaan-force-of-the-forrest-2026",
    "title": "The Vvaan: Force of the Forrest",
    "year": 2026,
    "lang": "hi",
    "kind": "movie",
-   "platform": "Prime Video",
-   "ottDate": "2026-11-05",
-   "dateConfirmed": false,
-   "status": "upcoming",
+   "platform": "Prime Video (Rent)",
+   "ottDate": "2026-11-06",
+   "dateConfirmed": true,
+   "status": "streaming",
    "theatricalDate": "2026-09-25",
    "genres": [
     "Fantasy",
@@ -632,7 +799,7 @@
    "cast": "Sidharth Malhotra, Tamannaah Bhatia, Sunil Grover",
    "director": "Deepak Kumar Mishra",
    "synopsis": "A folk-mythological thriller set around a mysterious forest.",
-   "source": "https://www.flickonclick.com/?p=187814",
+   "source": "https://www.newsbytesapp.com/news/entertainment/malhotra-and-bhatias-the-vvaan-hits-prime-video-nov-6/tldr",
    "imdb": 6.6,
    "imdbVotes": "6.3K",
    "ratingSource": "https://www.justwatch.com/in/movie/vvan-force-of-the-forrest",
@@ -652,6 +819,90 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/rlOz3ZMwtIyvZB9O4btHASVJjI1.jpg"
   },
   {
+   "id": "baa-baa-black-sheep-2026",
+   "title": "Baa Baa Black Sheep",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Sun NXT",
+   "ottDate": "2026-11-06",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-10-09",
+   "genres": [
+    "Crime",
+    "Comedy"
+   ],
+   "cast": "Upendra Limaye, Vishnu Oi, Akshay Lagusani, Tinnu Anand",
+   "director": "Guni Manchikanti",
+   "synopsis": "A man travelling to Meghalaya to marry his girlfriend gets tangled with a gangster over a mysterious box his friend picked up.",
+   "source": "https://www.gulte.com/movienews/440028/ott-movies-web-series-this-week-02nd-08th-nov",
+   "boxOffice": "₹0.18 cr worldwide",
+   "money": "INR",
+   "grossAmt": 0.18,
+   "budgetNote": "Gross from Sacnilk",
+   "budgetSource": "https://www.sacnilk.com/movie/Baa_Baa_Black_Sheep_2026"
+  },
+  {
+   "id": "last-man-in-tower-2026",
+   "title": "Last Man in Tower",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-11-06",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-11",
+   "genres": [
+    "Drama"
+   ],
+   "cast": "Manoj Bajpayee, Divya Dutta, Boman Irani",
+   "director": "Ben Rekhi",
+   "synopsis": "A retired teacher refuses to sell his flat when a builder offers his Mumbai housing society a redevelopment deal, splitting his neighbours.",
+   "source": "https://www.newsbytesapp.com/news/entertainment/last-man-in-tower-trailer-released-zee5-streams-november-6/tldr",
+   "ratingSource": "https://www.hollywoodreporterindia.com/reviews/theatrical/last-man-in-tower-movie-review-a-well-acted-and-sobering-middle-class-tragedy",
+   "reception": "Positive",
+   "criticScore": "Flickonclick 4/5; Outlook 2.5/5"
+  },
+  {
+   "id": "i-m-game-2026",
+   "title": "I'm Game",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-11-06",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-03",
+   "genres": [
+    "Action",
+    "Thriller",
+    "Fantasy"
+   ],
+   "cast": "Dulquer Salmaan, Antony Varghese, Mysskin, Kayadu Lohar",
+   "director": "Nahas Hidhayath",
+   "dubs": [
+    "hi",
+    "ta",
+    "te",
+    "kn"
+   ],
+   "synopsis": "Dulquer Salmaan plays Dan in an action thriller with a fantasy twist set around a sports-betting world.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-november-2-8-kunjumalakha-im-game-icu-until-last-breath-meesaya-murukku-2-manorama-max-jiohotstar-sun-nxt-sonyliv",
+   "imdb": 6,
+   "imdbVotes": "5K",
+   "ratingSource": "https://www.justwatch.com/in/movie/im-game",
+   "reception": "Mixed",
+   "boxOffice": "~₹48 cr worldwide",
+   "money": "INR",
+   "budgetAmt": 80,
+   "grossAmt": 48,
+   "budgetNote": "Budget around ₹80 cr (reported)",
+   "budgetSource": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-november-2-8-kunjumalakha-im-game-icu-until-last-breath-meesaya-murukku-2-manorama-max-jiohotstar-sun-nxt-sonyliv"
+  },
+  {
    "id": "black-doves-season-2-2026",
    "title": "Black Doves Season 2",
    "year": 2026,
@@ -660,12 +911,17 @@
    "platform": "Netflix",
    "ottDate": "2026-11-05",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Spy",
     "Thriller"
    ],
    "cast": "Keira Knightley, Ben Whishaw, Andrew Buchan, Ambika Mod, Neve Campbell",
+   "dubs": [
+    "te",
+    "ta",
+    "hi"
+   ],
    "synopsis": "Helen keeps leaking state secrets to the Black Doves as her husband closes in on the prime minister's job, while Sam scrapes by on cheap hits.",
    "source": "https://www.whats-on-netflix.com/coming-soon/best-new-netflix-series-november-2026/",
    "tmdbId": 225385,
@@ -682,7 +938,7 @@
    "platform": "Netflix",
    "ottDate": "2026-11-05",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": null,
    "genres": [
     "Family",
@@ -690,12 +946,181 @@
    ],
    "cast": "Mihir Ahuja, Manoj Pahwa, Neelu Kohli, Aurra Bhatnagar",
    "director": "Ritesh Menon",
+   "dubs": [
+    "te",
+    "ta",
+    "en"
+   ],
    "synopsis": "A son working abroad comes home for Diwali to the high-rise flat he bought his parents and learns a house is not the same as a home.",
    "source": "https://www.bollywoodhungama.com/news/features/dilwali-diwali-mihir-ahuja-manoj-pahwa-and-neelu-kohli-starrer-festive-family-film-to-premiere-on-netflix-on-november-5/",
    "tmdbId": 1810711,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/cV31QO65DA6mk4Hd6S7QncVq85T.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/jjq0mxPwmyYVGgpIze98WLRoODI.jpg"
+  },
+  {
+   "id": "balu-geetha-2026",
+   "title": "Balu Geetha",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "ETV Win",
+   "ottDate": "2026-11-05",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Romance",
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Sandeep Saroj, Keyuri Shah",
+   "director": "Pratap Kollareddy",
+   "synopsis": "A couple in an arranged marriage try to make their new life together work.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/new-tamil-telugu-ott-releases-this-week-nov-2-8-anakapalli-balu-geetha-meesaya-murukku-2-nooru-kodi-vaanavil-the-grand-master-7-start-boys-jiohotstar-zee5",
+   "ratingSource": "https://www.m9.news/ott-review/balu-geetha-etv-win-movie-review/amp/",
+   "reception": "Negative"
+  },
+  {
+   "id": "bhai-tera-star-hai-2026",
+   "title": "Bhai Tera Star Hai",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-11-05",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-07-30",
+   "genres": [
+    "Comedy",
+    "Crime"
+   ],
+   "cast": "Raghav Juyal, Sanjay Kapoor, Niki Walia, Niharika NM",
+   "director": "Vivek B. Agrawal",
+   "synopsis": "An aspiring actor deep in cricket-betting debt sets off a chain of chaotic crimes in London.",
+   "source": "https://blog.reelgood.com/?p=267262",
+   "boxOffice": "₹1.3 cr worldwide",
+   "money": "INR",
+   "grossAmt": 1.3,
+   "budgetNote": "Gross from Sacnilk",
+   "budgetSource": "https://www.sacnilk.com/movie/Bhai_Tera_Star_Hai_2026"
+  },
+  {
+   "id": "blind-game-2026",
+   "title": "Blind Game",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-11-04",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": null,
+   "genres": [
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Arjun Rampal, Priyamani, Rohit Chandel",
+   "director": "Sangeeth Sivan",
+   "synopsis": "A suspended police officer gets drawn into a twisty crime investigation.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-2-to-8-2026-featuring-meesaya-murukku-2-im-game-blind-game-and-more"
+  },
+  {
+   "id": "anakapalli-2026",
+   "title": "Anakapalli",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Sun NXT",
+   "ottDate": "2026-11-03",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-10-02",
+   "genres": [
+    "Action",
+    "Drama",
+    "Thriller"
+   ],
+   "cast": "Vikram Sahidev, Sandhya Vasishta, Tarak Ponnappa",
+   "director": "Khagesh Tammineni",
+   "synopsis": "A small-town action drama set in Anakapalli.",
+   "source": "https://www.sacnilk.com/movie/Anakapalli_2026",
+   "boxOffice": "₹1.9 cr worldwide",
+   "money": "INR",
+   "grossAmt": 1.93,
+   "budgetNote": "Gross from Sacnilk (21 days)"
+  },
+  {
+   "id": "minions-monsters-2026",
+   "title": "Minions & Monsters",
+   "year": 2026,
+   "lang": "en",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-11-02",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Animation",
+    "Comedy",
+    "Family"
+   ],
+   "cast": "Pierre Coffin, Trey Parker, Christoph Waltz, Allison Janney, Jesse Eisenberg",
+   "director": "Pierre Coffin",
+   "dubs": [
+    "ta",
+    "te",
+    "hi"
+   ],
+   "synopsis": "The Minions head to 1920s Hollywood to make a monster movie and accidentally unleash real monsters.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-2-to-8-2026-featuring-meesaya-murukku-2-im-game-blind-game-and-more",
+   "imdb": 6.3,
+   "imdbVotes": "37K",
+   "ratingSource": "https://www.justwatch.com/in/movie/minions-and-monsters"
+  },
+  {
+   "id": "comrade-kalyan-2026",
+   "title": "Comrade Kalyan",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "ottDate": "2026-10-30",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-10-09",
+   "genres": [
+    "Comedy",
+    "Drama",
+    "Period"
+   ],
+   "cast": "Sree Vishnu, Mahima Nambiar, Shine Tom Chacko",
+   "director": "Janakiram Marella",
+   "dubs": [
+    "ta",
+    "kn",
+    "ml",
+    "hi"
+   ],
+   "synopsis": "A struggling theatre owner keeps his cinema afloat by screening revolutionary films.",
+   "source": "https://www.gulte.com/news/438809/ott-movies-web-series-this-week-26th-oct-01st-nov",
+   "imdb": 9.1,
+   "imdbVotes": "1.6K",
+   "ratingSource": "https://www.justwatch.com/us/movie/comrade-kalyan",
+   "reception": "Positive",
+   "criticScore": "123telugu 3/5",
+   "boxOffice": "₹19.7 cr worldwide",
+   "money": "INR",
+   "budgetAmt": 20,
+   "grossAmt": 19.72,
+   "breakEvenAmt": 12,
+   "breakEvenKind": "gross",
+   "budgetNote": "₹20 cr reported (Koimoi). BE: ~₹12 cr gross in Telugu states (Gulte); SVC paid ₹5 cr refundable advance",
+   "budgetSource": "https://www.koimoi.com/box-office/comrade-kalyan-box-office-collection-day-12-surpasses-lifetime-of-sree-vishnus-vishnu-vinyasam/",
+   "tmdbId": 1428295,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/pvRJWA4WnaoPeQ7Fs7G9P7EKu6h.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zsAbkmTkGE3l98Jhvdiy7ybNFo8.jpg"
   },
   {
    "id": "don-t-trouble-the-trouble-2026",
@@ -705,7 +1130,7 @@
    "kind": "movie",
    "platform": "Netflix",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": "2026-10-02",
    "genres": [
     "Fantasy",
@@ -716,7 +1141,9 @@
    "director": "Shashank Yeleti",
    "dubs": [
     "ta",
-    "ml"
+    "kn",
+    "ml",
+    "hi"
    ],
    "synopsis": "A magic-tinged action comedy presented by SS Rajamouli, with Fahadh Faasil in his Telugu lead debut.",
    "source": "https://www.123telugu.com/mnews/ott-rajamouli-backed-dont-trouble-the-trouble-locks-netflix-premiere-date-hk.html",
@@ -745,7 +1172,7 @@
    "platform": "Netflix",
    "ottDate": "2026-10-30",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": "2026-10-02",
    "genres": [
     "Crime",
@@ -776,7 +1203,7 @@
    "platform": "ZEE5",
    "ottDate": "2026-10-30",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Crime",
     "Thriller",
@@ -796,7 +1223,7 @@
    "platform": "JioHotstar",
    "ottDate": "2026-10-30",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Horror",
     "Thriller"
@@ -833,8 +1260,8 @@
    "kind": "movie",
    "platform": "Prime Video",
    "ottDate": "2026-10-30",
-   "dateConfirmed": false,
-   "status": "upcoming",
+   "dateConfirmed": true,
+   "status": "streaming",
    "theatricalDate": "2026-09-04",
    "genres": [
     "Crime",
@@ -846,7 +1273,7 @@
     "te"
    ],
    "synopsis": "The Mirzapur crime saga continues as a feature film with a new storyline.",
-   "source": "https://www.digit.in/news/entertainment/mirzapur-the-movie-digital-premiere-this-month-ott-release-timeline-streaming-platform-and-other-details-we-know.html",
+   "source": "https://www.aboutamazon.in/news/entertainment/mirzapur-the-film-prime-video",
    "imdb": 7.6,
    "imdbVotes": "7.5K",
    "ratingSource": "https://www.justwatch.com/in/movie/mirzapur-the-movie",
@@ -876,13 +1303,18 @@
    "platform": "Netflix",
    "ottDate": "2026-10-30",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Family",
     "Drama"
    ],
    "cast": "Rohini Hattangadi, Ritwik Bhowmik, Ayesha Raza Mishra, Abhay Kaul",
    "director": "Radhika Bansal",
+   "dubs": [
+    "te",
+    "ta",
+    "en"
+   ],
    "synopsis": "A surprise wedding announcement stirs up old tensions during a family's four-day Diwali reunion.",
    "source": "https://www.newsbytesapp.com/news/entertainment/meethe-mein-kya-hai-trailer-netflix-promises-relatable-family-drama/story",
    "tmdbId": 1802464,
@@ -899,7 +1331,7 @@
    "platform": "Netflix",
    "ottDate": "2026-10-30",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Crime",
     "Drama",
@@ -907,6 +1339,13 @@
    ],
    "cast": "Keerthy Suresh, Radhika Apte, Tanvi Azmi",
    "director": "Dharmaraj Shetty",
+   "dubs": [
+    "te",
+    "ta",
+    "kn",
+    "ml",
+    "en"
+   ],
    "synopsis": "In a 1980s town ruled by women, two rivals fight for power.",
    "source": "https://www.theweek.in/news/entertainment/2026/10/17/keerthy-suresh-radhika-apte-akka-ott-release-date.html"
   },
@@ -919,7 +1358,7 @@
    "platform": "ETV Win",
    "ottDate": "2026-10-29",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": "2026-10-02",
    "genres": [
     "Romance",
@@ -942,6 +1381,38 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/qDt0ZouigmSNZUFBfymK6hsO8Zi.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/om9NZwnnAfFRHDglfMHG7qiojdd.jpg"
+  },
+  {
+   "id": "baththa-2026",
+   "title": "Baththa",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-10-29",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-10-01",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Vijay Sethupathi, Lijomol Jose, Sai Prithiv Raj",
+   "director": "Balaji Tharaneetharan",
+   "dubs": [
+    "te",
+    "kn",
+    "ml",
+    "hi"
+   ],
+   "synopsis": "In 1980s Madras, a feared local rowdy gets accidentally locked in a bathroom by a schoolboy, who secretly keeps him fed for days before seeking help.",
+   "source": "https://www.dtnext.in/entertainment/ott/vijay-sethupathis-baththa-to-premiere-on-october-29",
+   "imdb": 8.5,
+   "imdbVotes": "13K",
+   "ratingSource": "https://www.justwatch.com/in/movie/baththa",
+   "reception": "Positive",
+   "boxOffice": "₹35 cr+ (reported)",
+   "money": "INR"
   },
   {
    "id": "sumo-didi-2026",
@@ -1326,6 +1797,32 @@
    "budgetNote": "Gross from Sacnilk"
   },
   {
+   "id": "aasha-2026",
+   "title": "Aasha",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-10-16",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-11",
+   "genres": [
+    "Mystery",
+    "Thriller",
+    "Drama"
+   ],
+   "cast": "Urvashi, Joju George, Aishwarya Lekshmi, Lakshmi Menon",
+   "director": "Safar Sanal",
+   "synopsis": "A widowed mother takes matters into her own hands against a volatile truck driver after her daughter is hurt in an accident.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-october-12-18-its-a-medical-miracle-kappi-squad-dc-aasha-adinaasam-vellapokkam-zee5-sonyliv-jiohotstar",
+   "imdb": 6.5,
+   "imdbVotes": "3K",
+   "ratingSource": "https://www.justwatch.com/in/movie/aasha-2026",
+   "reception": "Positive",
+   "criticScore": "The Week 4/5"
+  },
+  {
    "id": "the-diplomat-season-4-2026",
    "title": "The Diplomat Season 4",
    "year": 2026,
@@ -1589,6 +2086,96 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/tzoarEu7TsG959upiELyYPm5kO9.jpg"
   },
   {
+   "id": "khalifa-2026",
+   "title": "Khalifa",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "ottDate": "2026-10-09",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-08-20",
+   "genres": [
+    "Action",
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Prithviraj Sukumaran, Mohanlal (cameo), Neil Nitin Mukesh, Malvika Sharma, Aamir Ali",
+   "director": "Vysakh",
+   "dubs": [
+    "ta",
+    "te",
+    "kn",
+    "hi"
+   ],
+   "synopsis": "A gangster action thriller about gold-smuggling networks and the underworld that powers them.",
+   "source": "https://www.sacnilk.com/news/khalifa-ott-release-prithviraj-sukumarans-action-thriller-begins-streaming-on-six-platforms-after-box-office-disappointment",
+   "imdb": 5.9,
+   "imdbVotes": "9K",
+   "ratingSource": "https://www.justwatch.com/in/movie/khalifa-2026",
+   "reception": "Mixed",
+   "boxOffice": "~₹45 cr worldwide",
+   "money": "INR",
+   "grossAmt": 45,
+   "budgetNote": "Described only as a 'massive budget'; called a box-office disappointment",
+   "budgetSource": "https://www.sacnilk.com/news/khalifa-ott-release-prithviraj-sukumarans-action-thriller-begins-streaming-on-six-platforms-after-box-office-disappointment"
+  },
+  {
+   "id": "pradhama-drishtiya-kuttakkar-2026",
+   "title": "Pradhama Drishtiya Kuttakkar",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-10-09",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-11",
+   "genres": [
+    "Crime",
+    "Thriller",
+    "Drama"
+   ],
+   "cast": "Parvathy Thiruvothu, Mathew Thomas, Vijayaraghavan, Sidharth Bharathan, Unnimaya Prasad",
+   "director": "Shahad Nilambur",
+   "dubs": [
+    "hi",
+    "ta",
+    "te",
+    "kn"
+   ],
+   "synopsis": "A police constable is drawn into a cover-up after a fatal incident inside her own police station.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-oct-5-11-pradhama-drishtiya-kuttakar-eyes-khalifa-the-ruler-epic-first-semester-netflix-prime-video-sonyliv-parvathy-kani-kusruti",
+   "imdb": 7.4,
+   "imdbVotes": "6.7K",
+   "ratingSource": "https://www.justwatch.com/in/movie/pradhama-dhrishtya-kuttakkar",
+   "reception": "Positive",
+   "criticScore": "The Week 5/5; Gulf News 3.5/5"
+  },
+  {
+   "id": "eyes-2026",
+   "title": "Eyes",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "series",
+   "platform": "SonyLIV",
+   "ottDate": "2026-10-09",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "genres": [
+    "Thriller",
+    "Crime"
+   ],
+   "cast": "Kani Kusruti, Shruti Ramachandran, Nikhila Vimal, Saniya Iyappan, Dev Mohan, Jaffer Idukki",
+   "director": "Manu Ashokan",
+   "synopsis": "A police officer and a special team use an app to track down stalkers and harassers across Kerala.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-oct-5-11-pradhama-drishtiya-kuttakar-eyes-khalifa-the-ruler-epic-first-semester-netflix-prime-video-sonyliv-parvathy-kani-kusruti",
+   "ratingSource": "https://www.hollywoodreporterindia.com/reviews/streaming/eyes-series-review-unapologetically-pulpy-with-a-striking-jaffer-idukki-performance",
+   "reception": "Positive",
+   "criticScore": "Flick on Click 3.5/5"
+  },
+  {
    "id": "mortal-kombat-ii-2026",
    "title": "Mortal Kombat II",
    "year": 2026,
@@ -1623,6 +2210,40 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/4EAAwpylq313qrDqpCxulUrXBNF.jpg"
+  },
+  {
+   "id": "mandaadi-2026",
+   "title": "Mandaadi",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-10-08",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-10",
+   "genres": [
+    "Sports",
+    "Action",
+    "Drama"
+   ],
+   "cast": "Soori, Suhas, Mahima Nambiar, Sathyaraj",
+   "director": "Mathimaran Pugazhendhi",
+   "dubs": [
+    "te",
+    "hi",
+    "ml",
+    "kn"
+   ],
+   "synopsis": "A fishing captain leads his six-man crew in a high-stakes traditional boat race on the Tamil Nadu coast that becomes a clash between rival groups.",
+   "source": "https://www.theweek.in/news/entertainment/2026/10/05/mandaadi-ott-release-date.html",
+   "imdb": 7.9,
+   "imdbVotes": "12K",
+   "ratingSource": "https://www.justwatch.com/in/movie/mandaadi",
+   "reception": "Positive",
+   "boxOffice": "₹133.82 cr worldwide (as of 2026-10-05)",
+   "money": "INR",
+   "grossAmt": 133.82
   },
   {
    "id": "ishqa-ishqa-2026",
@@ -1782,6 +2403,66 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/qfZSKbfit41qcjBOvUDWV2v9WEz.jpg"
   },
   {
+   "id": "bethlehem-kudumba-unit-2026",
+   "title": "Bethlehem Kudumba Unit",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-10-02",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-08-21",
+   "genres": [
+    "Romance",
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Nivin Pauly, Mamitha Baiju, Sangeeth Prathap, Roshan Shanavas, Shyam Mohan, Vinay Forrt",
+   "director": "Girish AD",
+   "dubs": [
+    "ta",
+    "te",
+    "hi",
+    "kn"
+   ],
+   "synopsis": "A romantic comedy built on comic misunderstandings around Justin (Nivin Pauly) and Ashley (Mamitha Baiju).",
+   "source": "https://www.theweek.in/news/entertainment/2026/09/27/bethlehem-kudumba-unit-ott-release.html",
+   "imdb": 8,
+   "imdbVotes": "12K",
+   "ratingSource": "https://www.justwatch.com/in/movie/bethlehem-kudumba-unit",
+   "reception": "Positive",
+   "criticScore": "The Week 5/5",
+   "verdict": "Blockbuster",
+   "verdictSource": "https://www.theweek.in/news/entertainment/2026/09/27/bethlehem-kudumba-unit-ott-release.html",
+   "boxOffice": "₹331.10 cr worldwide (Sacnilk, day 70)",
+   "money": "INR",
+   "grossAmt": 331.1,
+   "budgetNote": "₹25–35 cr (reported estimate)",
+   "budgetSource": "https://www.theweek.in/news/entertainment/2026/09/27/bethlehem-kudumba-unit-ott-release.html"
+  },
+  {
+   "id": "mother-promise-2026",
+   "title": "Mother Promise",
+   "year": 2026,
+   "lang": "kn",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-10-02",
+   "dateConfirmed": false,
+   "status": "streaming",
+   "theatricalDate": "2026-07-10",
+   "genres": [
+    "Comedy",
+    "Crime"
+   ],
+   "cast": "Dhananjaya, Poornachandra Mysuru, Chi Guru Dutt, Vinaya Prasad",
+   "director": "Poornachandra Mysuru",
+   "synopsis": "An absurdist gangster comedy built around Dhananjaya's menacing gangster Rossi.",
+   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-kannada-2024-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-3-1088.html",
+   "reception": "Positive"
+  },
+  {
    "id": "romanchakam-2026",
    "title": "Romanchakam",
    "year": 2026,
@@ -1885,6 +2566,38 @@
    "tmdbType": "tv",
    "poster": "https://image.tmdb.org/t/p/w500/dP6DaMzM8hdG6EcI9keqkgW1l4J.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/rmZh9TkQIZ9XfTjniUyLGIIACLG.jpg"
+  },
+  {
+   "id": "sardar-2-2026",
+   "title": "Sardar 2",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "ottDate": "2026-10-01",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-10",
+   "genres": [
+    "Action",
+    "Spy Thriller"
+   ],
+   "cast": "Karthi, SJ Suryah, Malavika Mohanan, Ashika Ranganath, Rajisha Vijayan, Yogi Babu",
+   "director": "PS Mithran",
+   "dubs": [
+    "te",
+    "hi",
+    "kn",
+    "ml"
+   ],
+   "synopsis": "Inspector Vijay takes on the terrorist Black Dagger while the origin story of his father, the spy Sardar, unfolds in flashback.",
+   "source": "https://www.dtnext.in/entertainment/ott/karthis-sardar-2-to-begin-streaming-on-ott-from-this-date",
+   "imdb": 5.5,
+   "imdbVotes": "1.5K",
+   "ratingSource": "https://www.justwatch.com/in/movie/sardar-2",
+   "reception": "Mixed",
+   "boxOffice": "₹17.75 cr India gross (first week, Pinkvilla)",
+   "money": "INR"
   },
   {
    "id": "ameer-log-2026",
@@ -2297,6 +3010,74 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/578jrGVEN4a5rxJGtkt9sMI2w6c.jpg"
   },
   {
+   "id": "thudakkam-2026",
+   "title": "Thudakkam",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-09-18",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-08-07",
+   "genres": [
+    "Action",
+    "Thriller"
+   ],
+   "cast": "Vismaya Mohanlal, Ashish Joe Antony, Mohanlal (special appearance)",
+   "director": "Jude Anthany Joseph",
+   "dubs": [
+    "ta",
+    "te",
+    "kn",
+    "hi"
+   ],
+   "synopsis": "Vismaya Mohanlal makes her lead debut in a martial-arts action thriller.",
+   "source": "https://www.theweek.in/news/entertainment/2026/09/05/thudakkam-ott-release-date.amp.html",
+   "imdb": 5.7,
+   "imdbVotes": "1K",
+   "ratingSource": "https://www.justwatch.com/in/movie/thudakkam-2026",
+   "verdict": "Hit",
+   "verdictSource": "https://www.theweek.in/news/entertainment/2026/09/05/thudakkam-ott-release-date.amp.html",
+   "boxOffice": "₹41 cr worldwide",
+   "money": "INR",
+   "budgetAmt": 15,
+   "grossAmt": 41,
+   "budgetNote": "Reported modest budget of around ₹15 cr",
+   "budgetSource": "https://www.theweek.in/news/entertainment/2026/09/05/thudakkam-ott-release-date.amp.html"
+  },
+  {
+   "id": "modha-rathri-2026",
+   "title": "Modha Rathri",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-09-18",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-08-21",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Rishikanth, Anishma Anilkumar",
+   "director": "Raja Karuppasamy",
+   "dubs": [
+    "te",
+    "ml",
+    "kn",
+    "hi"
+   ],
+   "synopsis": "A comedy about newlyweds Marudhu and Muthuselvi and the chaos that surrounds the start of their marriage.",
+   "source": "https://www.m9.news/what-to-watch-on-ott/modha-rathri-ott-response-netflix/amp/",
+   "imdb": 7.5,
+   "imdbVotes": "5K",
+   "ratingSource": "https://www.justwatch.com/in/movie/modha-rathiri",
+   "reception": "Positive",
+   "criticScore": "DT Next 4/5"
+  },
+  {
    "id": "lee-cronin-s-the-mummy-2026",
    "title": "Lee Cronin's The Mummy",
    "year": 2026,
@@ -2555,6 +3336,40 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/3gcA80UNEO6pAgpTUf7RFS13KPa.jpg"
   },
   {
+   "id": "vishwanath-and-sons-2026",
+   "title": "Vishwanath and Sons",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-09-11",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-08-14",
+   "genres": [
+    "Romance",
+    "Family",
+    "Drama"
+   ],
+   "cast": "Suriya, Mamitha Baiju, Radikaa Sarathkumar, Raveena Tandon",
+   "director": "Venky Atluri",
+   "dubs": [
+    "hi",
+    "te",
+    "kn",
+    "ml"
+   ],
+   "synopsis": "A disciplined, celebrated shooter's orderly life is upended by ageing, family duties and an unexpected romance with a much younger woman.",
+   "source": "https://www.outlookindia.com/art-entertainment/south-cinema/vishwanath-and-sons-ott-release-when-and-where-to-watch-suriyas-260-crore-hit",
+   "imdb": 7.1,
+   "imdbVotes": "10K",
+   "ratingSource": "https://www.justwatch.com/in/movie/vishwanath-and-sons",
+   "reception": "Mixed",
+   "criticScore": "The Week 3.5/5",
+   "boxOffice": "₹260 cr+ worldwide (25 days)",
+   "money": "INR"
+  },
+  {
    "id": "chumbak-2026",
    "title": "Chumbak",
    "year": 2026,
@@ -2714,6 +3529,36 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/oVij5aEEE6iI4PxB4i0CgKp8h0m.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/95sjD0dRajtU6SKD6Gq6PtrGoGY.jpg"
+  },
+  {
+   "id": "dc-2026",
+   "title": "DC",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Sun NXT",
+   "ottDate": "2026-09-04",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-08-07",
+   "genres": [
+    "Action",
+    "Drama"
+   ],
+   "cast": "Lokesh Kanagaraj, Wamiqa Gabbi",
+   "director": "Arun Matheswaran",
+   "dubs": [
+    "te",
+    "ml"
+   ],
+   "synopsis": "A bloody tale of betrayal and revenge marking director Lokesh Kanagaraj's debut as a lead actor.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/6-new-friday-south-indian-ott-releases-sep-4-unmadham-dc-korean-kanakaraju-gdn-the-court-jagamae-sangeetham-sonyliv-sun-nxt-netflix",
+   "imdb": 7.8,
+   "imdbVotes": "10K",
+   "ratingSource": "https://www.justwatch.com/in/movie/dc-2026",
+   "reception": "Positive",
+   "boxOffice": "₹100 cr+ worldwide",
+   "money": "INR"
   },
   {
    "id": "the-gentlemen-season-2-2026",
@@ -3184,6 +4029,30 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/hwxT1gsIUJU0nHRTTgtUzkPpXtr.jpg"
   },
   {
+   "id": "i-nobody-2026",
+   "title": "I, Nobody",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-08-25",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-07-09",
+   "genres": [
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Prithviraj Sukumaran, Parvathy Thiruvothu",
+   "director": "Nissam Basheer",
+   "synopsis": "An ordinary man named Rajeevan gets pulled into an audacious money heist.",
+   "source": "https://www.theweek.in/news/entertainment/2026/08/16/i-nobody-malayalam-ott-release-prithviraj.html",
+   "imdb": 5.9,
+   "imdbVotes": "1.9K",
+   "ratingSource": "https://www.justwatch.com/in/movie/i-nobody",
+   "reception": "Mixed"
+  },
+  {
    "id": "welcome-to-the-jungle-2026",
    "title": "Welcome to the Jungle",
    "year": 2026,
@@ -3326,6 +4195,39 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/bccUtSQMXlZ5Cy2pYGuxg4bwHAr.jpg"
   },
   {
+   "id": "jana-nayagan-2026",
+   "title": "Jana Nayagan",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-08-21",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-07-23",
+   "genres": [
+    "Action",
+    "Political Drama"
+   ],
+   "cast": "Vijay, Pooja Hegde, Bobby Deol, Mamitha Baiju, Prakash Raj, Priyamani",
+   "director": "H. Vinoth",
+   "dubs": [
+    "te",
+    "ml",
+    "kn"
+   ],
+   "synopsis": "A man who raised a young woman into an Army officer is forced back into conflict when his old enemy resurfaces.",
+   "source": "https://www.outlookindia.com/art-entertainment/south-cinema/jana-nayagan-ott-premiere-when-and-where-to-watch-vijays-final-film-online",
+   "imdb": 5.1,
+   "imdbVotes": "7.3K",
+   "ratingSource": "https://www.justwatch.com/in/movie/thalapathy-69",
+   "reception": "Negative",
+   "criticScore": "Rotten Tomatoes 20% (10 reviews)",
+   "boxOffice": "₹327.2 cr worldwide (Koimoi closing)",
+   "money": "INR",
+   "grossAmt": 327.2
+  },
+  {
    "id": "srinivasa-mangapuram-2026",
    "title": "Srinivasa Mangapuram",
    "year": 2026,
@@ -3433,6 +4335,96 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qjTqY5coNiz6sVtPng40IzltsoN.jpg"
+  },
+  {
+   "id": "balan-the-boy-2026",
+   "title": "Balan: The Boy",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-07-31",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-06-19",
+   "genres": [
+    "Drama",
+    "Thriller",
+    "Mystery"
+   ],
+   "cast": "Adhisheshan K.R., Farzana Palathingal, Muhammed Zinaan, Jean Paul Lal, Girish AD, Tovino Thomas (cameo)",
+   "director": "Chidambaram",
+   "dubs": [
+    "ta",
+    "te",
+    "kn"
+   ],
+   "synopsis": "A psychological drama about a mother and her young son trying to escape a traumatic past.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-july-27-aug-2-balan-the-boy-paithalattam-gatta-kusthi-2-zee5-netflix-jiohotstar-sun-nxt-ramya-krishnan-yogi-babu",
+   "imdb": 8,
+   "imdbVotes": "6.6K",
+   "ratingSource": "https://www.justwatch.com/in/movie/balan-the-boy",
+   "reception": "Positive",
+   "money": "INR",
+   "budgetNote": "Estimated ₹18–22 cr; ~₹24 cr worldwide by day 9",
+   "budgetSource": "https://www.theweek.in/news/entertainment/2026/06/28/word-of-mouth-boosts-balan-the-boy-box-office.html"
+  },
+  {
+   "id": "pallichattambi-2026",
+   "title": "Pallichattambi",
+   "year": 2026,
+   "lang": "ml",
+   "kind": "movie",
+   "platform": "SonyLIV",
+   "ottDate": "2026-07-24",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-04-15",
+   "genres": [
+    "Action",
+    "Drama"
+   ],
+   "cast": "Tovino Thomas, Kayadu Lohar, Vijayaraghavan, Siddique, Baburaj, Prithviraj Sukumaran (cameo)",
+   "director": "Dijo Jose Antony",
+   "synopsis": "A period action drama set in 1950s Kerala that builds its political story around a revenge plot.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-july-20-26-pallichattambi-secret-of-kalinga-sonyliv-sunnxt-manoramamax-tovino-thomas",
+   "imdb": 5.8,
+   "imdbVotes": "4K",
+   "ratingSource": "https://www.justwatch.com/in/movie/pallichattambi",
+   "reception": "Mixed",
+   "boxOffice": "~₹18.5 cr worldwide (13 days)",
+   "money": "INR",
+   "budgetAmt": 45,
+   "grossAmt": 18.5,
+   "budgetNote": "Reported ₹45 cr budget; underwhelming run",
+   "budgetSource": "https://www.newsbytesapp.com/news/entertainment/thomass-pallichattambi-earns-rs82cr-opening-during-vishu-despite-rs45cr-budget/tldr"
+  },
+  {
+   "id": "the-devil-2025",
+   "title": "The Devil",
+   "year": 2025,
+   "lang": "kn",
+   "kind": "movie",
+   "platform": "ZEE5",
+   "ottDate": "2026-07-17",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2025-12-11",
+   "genres": [
+    "Action",
+    "Thriller"
+   ],
+   "cast": "Darshan, Rachana Rai, Mahesh Manjrekar, Achyuth Kumar, Sharmila Mandre",
+   "director": "Prakash Veer",
+   "synopsis": "With a jailed Chief Minister's son refusing to return from London, an IAS officer recruits a lookalike named Krishna to impersonate him, until a mysterious figure called The Devil appears.",
+   "source": "https://www.sakshipost.com/news/entertainment/darshans-devil-ott-release-when-and-where-watch-481037",
+   "imdb": 8.5,
+   "imdbVotes": "6K",
+   "ratingSource": "https://www.justwatch.com/in/movie/devil-the-hero",
+   "reception": "Mixed",
+   "criticScore": "Filmibeat 3/5",
+   "boxOffice": "₹34.52 cr (Filmibeat)",
+   "money": "INR"
   }
  ]
 }
