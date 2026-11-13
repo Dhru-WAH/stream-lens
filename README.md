@@ -4,8 +4,8 @@ Personal, sideloaded Android app: what's new and coming on Indian OTT platforms 
 a few English films, and well-rated or high-profile Tamil, Malayalam and Kannada films), with ratings, box-office verdicts, budgets and my own watched list.
 
 ## Install
-Built on the Windows PC into `Downloads/streamlens-vX.Y.apk`, then sent to the phone with Quick Share
-(v1.4 and earlier: `Google Drive › App installs › StreamLens`).
+v1.5 was built on the Windows PC and sent to the phone with Quick Share. From now on it is built on the Mac and
+installed with `adb install -r` (see [CLAUDE.md](CLAUDE.md)).
 
 ## How it works
 - **Release list:** `data/releases.json` in this repo. The app downloads it from
@@ -19,18 +19,10 @@ Built on the Windows PC into `Downloads/streamlens-vX.Y.apk`, then sent to the p
   (optionally) when new Telugu titles arrive.
 - **Must watch:** the app stamps a title "Must watch" when it is streaming, critics were positive, and IMDb is
   7.5+ from at least 5K votes (box-office verdict ignored). Thresholds: `MUST_WATCH_*` in `Release.kt`.
-- **Posters** are drawn by the app (genre colours + title type), so there's no image hosting to maintain.
+- **Posters** come from TMDB (filled into the feed by `tools/posters.py`); titles without a match get artwork
+  drawn by the app (genre colours + title type), so there's no image hosting to maintain.
 
-## Build (Windows PC, since v1.5)
-Android SDK lives in `D:\Claude\android-sdk` (`local.properties` points at it); JDK 20 runs Gradle.
-Java must be forced onto IPv4 or Gradle downloads time out on this network. From Git Bash:
-```
-export JAVA_HOME='C:\Program Files\Java\jdk-20' GRADLE_OPTS=-Djava.net.preferIPv4Stack=true
-./gradlew assembleDebug -Dorg.gradle.jvmargs="-Xmx3g -Djava.net.preferIPv4Stack=true"
-cp app/build/outputs/apk/debug/app-debug.apk ~/Downloads/streamlens-vX.Y.apk   # then Quick Share to the phone
-```
-Bump `versionCode`/`versionName` every build.
-
-**Signing:** builds are signed with this PC's debug keystore (`%USERPROFILE%\.android\debug.keystore`).
-v1.4 and earlier were signed on the old Mac, so v1.5 had to be a fresh install (Backup, uninstall, install,
-Restore). Keep a copy of that keystore: losing it means another uninstall for the next update.
+## Developing
+**Start with [CLAUDE.md](CLAUDE.md).** It has the full handoff: the code map, the data/app contract, open
+items (the daily refresh needs re-scheduling on the Mac), how to build on the Mac and the signing key to carry
+over. Claude Code reads it automatically when you open this repo.
