@@ -10,8 +10,8 @@ installed with `adb install -r` (see [CLAUDE.md](CLAUDE.md)).
 ## How it works
 - **Release list:** `data/releases.json` in this repo. The app downloads it from
   `raw.githubusercontent.com` on launch and pull-to-refresh, and keeps the last copy for offline use.
-- **Daily refresh:** _paused: it ran on the old Mac; last run by hand on 12 Nov 2026._ A scheduled Claude task on my Mac (`streamlens-daily-refresh`, ~11 am, or on next wake if
-  the Mac was asleep) follows [`data/REFRESH.md`](data/REFRESH.md): it searches the web for new and upcoming
+- **Daily refresh:** a scheduled Claude task on my Mac (`streamlens-daily-refresh`, ~11 am, or the next time
+  the Claude app is open if it was closed) follows [`data/REFRESH.md`](data/REFRESH.md): it searches the web for new and upcoming
   releases, fills IMDb / BookMyShow ratings, verdicts and budgets, and pushes the file.
 - **My data stays on the phone:** watched ticks, watchlist, star ratings and "not interested" live in a Room
   database. Settings › Backup writes them to a JSON file; Restore reads one back.

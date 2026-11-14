@@ -55,13 +55,14 @@ Splash screen and house brand: on Android 12+ the launch screen is ivory with a 
 - 1.4: real TMDB posters on tiles and in details.
 - 1.5 (2026-11-12): "Must watch" stamp; Tamil, Malayalam and Kannada titles; first build on Windows.
 
-## Open items at handoff (2026-11-13)
-- **The daily data refresh is not scheduled anywhere.** It used to run as the scheduled Claude task
-  `streamlens-daily-refresh` (~11 am) on the old Mac. The last run was by hand on 2026-11-12. On the new Mac,
-  set up a daily scheduled task whose prompt is: *"In the stream-lens repo, follow data/REFRESH.md."*
-  Then update the "Daily refresh" line in README.md.
+## Daily refresh (scheduled on the new Mac, 2026-11-14)
+The Claude scheduled task `streamlens-daily-refresh` runs daily at ~11 am IST (or when the Claude app next
+opens). It works in the clone at `~/Claude/apps/stream-lens`, pulls `main`, follows `data/REFRESH.md` and
+pushes. Its prompt lives in `~/.claude/scheduled-tasks/streamlens-daily-refresh/SKILL.md`.
+
+## Open items
 - **TMDB token:** `tools/posters.py` reads `$TMDB_TOKEN` or `~/.config/streamlens/tmdb_token`. It was on the
-  old Mac only and isn't on the Windows PC. Dhruva needs to create or copy a TMDB API Read Access Token on
+  old Mac only and isn't on the new Mac yet. Dhruva needs to create or copy a TMDB API Read Access Token on
   the Mac. Never commit it. Without it, the refresh still works, but new titles get drawn art instead of
   posters.
 - `python3` is needed for the poster script and the validation one-liner. macOS has it; the Windows PC
