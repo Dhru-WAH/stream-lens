@@ -1,43 +1,8 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-12T15:38:50+05:30",
- "count": 145,
+ "updatedAt": "2026-11-14T14:37:48+05:30",
+ "count": 146,
  "titles": [
-  {
-   "id": "vibe-2026",
-   "title": "Vibe",
-   "year": 2026,
-   "lang": "hi",
-   "kind": "movie",
-   "platform": "Prime Video",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "theatricalDate": "2026-09-18",
-   "genres": [
-    "Action",
-    "Comedy",
-    "Spy"
-   ],
-   "cast": "Kunal Kemmu, Preity Zinta, Sparsh Shrivastava",
-   "director": "Kunal Kemmu",
-   "synopsis": "Two ordinary men get pulled into a chaotic spy mission run by a handler called Madam H.",
-   "source": "https://www.mediainfoline.com/entertainment/amazon-mgm-studios-unveiling-the-trailer-of-kunal-kemmus-high-stakes-action-comedy-vibe",
-   "imdb": 7.1,
-   "imdbVotes": "1.5K",
-   "ratingSource": "https://www.justwatch.com/in/movie/vibe-2026-1",
-   "reception": "Mixed",
-   "criticScore": "Bollywood Hungama 3/5",
-   "verdict": "Flop",
-   "verdictSource": "https://www.bollywoodhungama.com/movie/vibe/box-office/",
-   "boxOffice": "₹20 cr worldwide",
-   "money": "INR",
-   "grossAmt": 20,
-   "budgetNote": "No budget reported (Amazon MGM Studios has not disclosed it)",
-   "tmdbId": 1654566,
-   "tmdbType": "movie",
-   "poster": "https://image.tmdb.org/t/p/w500/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg"
-  },
   {
    "id": "udta-teer-2026",
    "title": "Udta Teer",
@@ -252,7 +217,41 @@
    "money": "INR",
    "grossAmt": 73.81,
    "budgetNote": "Gross from Koimoi, film still running",
-   "budgetSource": "https://www.koimoi.com/box-office/hits-flops/tollywood-telugu-box-office-collection-verdicts/"
+   "budgetSource": "https://www.koimoi.com/box-office/hits-flops/tollywood-telugu-box-office-collection-verdicts/",
+   "tmdbId": 1496785,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/1Z0ypXqSRWjnjPRVU6YiHwawsLC.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rzeJe8pONgRyalcTDM3gqXssqeM.jpg"
+  },
+  {
+   "id": "ramayana-part-1-2026",
+   "title": "Ramayana: Part 1",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": null,
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "theatricalDate": "2026-11-05",
+   "genres": [
+    "Mythology",
+    "Epic",
+    "Action"
+   ],
+   "cast": "Ranbir Kapoor, Yash, Sai Pallavi",
+   "director": "Nitesh Tiwari",
+   "synopsis": "The first half of a big-screen retelling of the Ramayana, following Rama's exile and the rise of Ravana.",
+   "source": "https://www.outlookindia.com/art-entertainment/ramayana-part-one-lands-jiohotstar-pay-per-view-ott-deal",
+   "verdictSource": "https://www.sacnilk.com/news/ramayana_part_1_2026_Box_Office_Collection_Day_Wise_Worldwide",
+   "boxOffice": "₹1,110.7 cr worldwide (9 days, still running)",
+   "money": "INR",
+   "grossAmt": 1110.7,
+   "budgetNote": "Streaming will be pay-per-view on JioHotstar after the theatrical run; gross is Sacnilk 9-day total",
+   "tmdbId": 656908,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
   },
   {
    "id": "the-further-mis-adventures-of-cliff-booth-2026",
@@ -448,8 +447,8 @@
    "kind": "movie",
    "platform": "Aha",
    "ottDate": "2026-11-14",
-   "dateConfirmed": false,
-   "status": "upcoming",
+   "dateConfirmed": true,
+   "status": "streaming",
    "genres": [
     "Thriller",
     "Romance",
@@ -458,7 +457,50 @@
    "cast": "Kiku Yanamala, Kashish Khan, Tanikella Bharani, Easwari Rao",
    "director": "Shubha Sai Venkat",
    "synopsis": "An Araku photographer born with his heart on the right side falls for a visitor who is being stalked by a masked attacker.",
-   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html"
+   "source": "https://www.telugu360.com/ott-releases-for-third-week-of-november-2026/",
+   "tmdbId": 1748499,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/uAlTYjwLAX9VCP8mSbKDiKzkqcS.jpg"
+  },
+  {
+   "id": "vibe-2026",
+   "title": "Vibe",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-09-18",
+   "genres": [
+    "Action",
+    "Comedy",
+    "Spy"
+   ],
+   "cast": "Kunal Kemmu, Preity Zinta, Sparsh Shrivastava",
+   "director": "Kunal Kemmu",
+   "synopsis": "Two ordinary men get pulled into a chaotic spy mission run by a handler called Madam H.",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-9-to-15-2026-jailer-2-daayra-ranabaali-on-netflix-prime-video-and-more",
+   "imdb": 7.1,
+   "imdbVotes": "1.5K",
+   "ratingSource": "https://www.justwatch.com/in/movie/vibe-2026-1",
+   "reception": "Mixed",
+   "criticScore": "Bollywood Hungama 3/5",
+   "verdict": "Flop",
+   "verdictSource": "https://www.bollywoodhungama.com/movie/vibe/box-office/",
+   "boxOffice": "₹20 cr worldwide",
+   "money": "INR",
+   "grossAmt": 20,
+   "budgetNote": "No budget reported (Amazon MGM Studios has not disclosed it)",
+   "tmdbId": 1654566,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
+   "ottDate": "2026-11-13",
+   "dubs": [
+    "ta",
+    "te"
+   ]
   },
   {
    "id": "ranabaali-2026",
@@ -520,7 +562,11 @@
    "cast": "Shanaya Kapoor",
    "director": "Reema Maya",
    "synopsis": "A darker thriller reimagining of the Student of the Year franchise, set at St. Theresa, with Shanaya Kapoor in a double role.",
-   "source": "https://www.bollywoodhungama.com/amp/news/bollywood/shanaya-kapoors-debut-web-show-student-of-the-year-after-dark-to-premiere-november-13-on-jiohotstar/"
+   "source": "https://www.bollywoodhungama.com/amp/news/bollywood/shanaya-kapoors-debut-web-show-student-of-the-year-after-dark-to-premiere-november-13-on-jiohotstar/",
+   "tmdbId": 334412,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/t5f6GLyYu6XTq6zM2pk5TrqBtsS.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/korcgv34LrO7YVsQaQRfoz7Sn9g.jpg"
   },
   {
    "id": "daayra-2026",
@@ -530,8 +576,8 @@
    "kind": "movie",
    "platform": "Netflix",
    "ottDate": "2026-11-13",
-   "dateConfirmed": false,
-   "status": "upcoming",
+   "dateConfirmed": true,
+   "status": "streaming",
    "theatricalDate": "2026-09-18",
    "genres": [
     "Crime",
@@ -540,7 +586,7 @@
    "cast": "Kareena Kapoor Khan, Prithviraj Sukumaran",
    "director": "Meghna Gulzar",
    "synopsis": "A crime thriller from Meghna Gulzar starring Kareena Kapoor Khan and Prithviraj Sukumaran.",
-   "source": "https://www.newsbytesapp.com/news/entertainment/kapoor-khan-and-sukumarans-daayra-lands-on-netflix-november-13/tldr",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-9-to-15-2026-jailer-2-daayra-ranabaali-on-netflix-prime-video-and-more",
    "imdb": 7.1,
    "imdbVotes": "4.4K",
    "ratingSource": "https://www.justwatch.com/in/movie/daayra",
@@ -557,7 +603,10 @@
    "tmdbId": 1215889,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/qQ6ORv3AfsV6m1ERL8Muk5jKpbu.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rbwmf04kpX1o3zbbOS6Y7woF2Ku.jpg"
+   "backdrop": "https://image.tmdb.org/t/p/w780/rbwmf04kpX1o3zbbOS6Y7woF2Ku.jpg",
+   "dubs": [
+    "ml"
+   ]
   },
   {
    "id": "happy-journey-2026",
@@ -567,8 +616,8 @@
    "kind": "movie",
    "platform": "Sun NXT",
    "ottDate": "2026-11-13",
-   "dateConfirmed": false,
-   "status": "upcoming",
+   "dateConfirmed": true,
+   "status": "streaming",
    "theatricalDate": "2026-09-18",
    "genres": [
     "Adventure",
@@ -583,12 +632,16 @@
     "kn"
    ],
    "synopsis": "Seven women of different ages win a lucky-draw trip to Europe and find friendship and self-discovery on the road.",
-   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html",
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-9-to-15-2026-jailer-2-daayra-ranabaali-on-netflix-prime-video-and-more",
    "boxOffice": "₹1.2 cr worldwide",
    "money": "INR",
    "grossAmt": 1.17,
    "budgetNote": "Gross from Sacnilk (14 days)",
-   "budgetSource": "https://www.sacnilk.com/movie/Happy_Journey_2026"
+   "budgetSource": "https://www.sacnilk.com/movie/Happy_Journey_2026",
+   "tmdbId": 1772904,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/hN2I3bWNDorwrBaYzr4ocNFVDJP.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/z5LNU5zbxDDTlhEzhubUXPXgio.jpg"
   },
   {
    "id": "crazy-kalyanam-2026",
@@ -615,7 +668,11 @@
    "money": "INR",
    "grossAmt": 1.19,
    "budgetNote": "Gross and verdict from Sacnilk",
-   "budgetSource": "https://www.sacnilk.com/tag/Crazy_Kalyanam_2026"
+   "budgetSource": "https://www.sacnilk.com/tag/Crazy_Kalyanam_2026",
+   "tmdbId": 1610188,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/dt6VT9GSCH6PSnTvngbF0IEnAho.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/4E7AhaPeYQbJQtumREm9IDo16bm.jpg"
   },
   {
    "id": "parivarik-manuranjan-2026",
@@ -636,7 +693,11 @@
    "cast": "Pankaj Tripathi, Aditi Rao Hydari, Brijendra Kala, Sunita Rajwar",
    "director": "Varun V. Sharma",
    "synopsis": "A family romantic comedy in which a house help in a man's home sets off a string of unexpected events.",
-   "source": "https://www.hollywoodreporterindia.com/features/insight/parivarik-manuranjan-aditi-rao-hydari-pankaj-tripathi-comedy-set-for-november-13-release-on-sony-liv"
+   "source": "https://www.hollywoodreporterindia.com/features/insight/parivarik-manuranjan-aditi-rao-hydari-pankaj-tripathi-comedy-set-for-november-13-release-on-sony-liv",
+   "tmdbId": 1493572,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/2gKGkD0pN2Ss9LrHA6tv5hEjHOs.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9j9DtcTGSSZJVrimys2emN5kVh3.jpg"
   },
   {
    "id": "pushpaka-vimanam-2026",
@@ -662,7 +723,11 @@
     "ml"
    ],
    "synopsis": "An ordinary man finds that his apartment lift can take him back from 2026 to 2016 and tries to fix old mistakes, with unexpected results.",
-   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html"
+   "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-telugu-2026-aha-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-6-1079.html",
+   "tmdbId": 341828,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/tEFSs0djTqmJdAQDLUClC9InWxd.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/8ENGGYTSdF5t42BHzOrl57mlCnF.jpg"
   },
   {
    "id": "jailer-2-2026",
@@ -696,7 +761,11 @@
    "criticScore": "Sacnilk critic tally: 3 positive, 5 mixed, 0 negative",
    "boxOffice": "₹830.30 cr worldwide (Day 29, Sacnilk)",
    "money": "INR",
-   "grossAmt": 830.3
+   "grossAmt": 830.3,
+   "tmdbId": 1234139,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg"
   },
   {
    "id": "the-lord-of-the-rings-the-rings-of-power-season-3-2026",
@@ -741,7 +810,11 @@
    "source": "https://www.flickonclick.com/new-ott-releases-november-9-15/",
    "imdb": 7.1,
    "imdbVotes": "47K",
-   "ratingSource": "https://www.justwatch.com/in/movie/heart-of-the-beast"
+   "ratingSource": "https://www.justwatch.com/in/movie/heart-of-the-beast",
+   "tmdbId": 1263337,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6uVRPFflyJpo8Cx872olmlGTWla.jpg"
   },
   {
    "id": "haiwaan-2026",
@@ -841,7 +914,11 @@
    "money": "INR",
    "grossAmt": 0.18,
    "budgetNote": "Gross from Sacnilk",
-   "budgetSource": "https://www.sacnilk.com/movie/Baa_Baa_Black_Sheep_2026"
+   "budgetSource": "https://www.sacnilk.com/movie/Baa_Baa_Black_Sheep_2026",
+   "tmdbId": 1555215,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/ftvZc6tUyorOGcjLfPrttgiAUVJ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/gBMlUDuMNBQ9xfp5bGT90jqqToX.jpg"
   },
   {
    "id": "last-man-in-tower-2026",
@@ -863,7 +940,11 @@
    "source": "https://www.newsbytesapp.com/news/entertainment/last-man-in-tower-trailer-released-zee5-streams-november-6/tldr",
    "ratingSource": "https://www.hollywoodreporterindia.com/reviews/theatrical/last-man-in-tower-movie-review-a-well-acted-and-sobering-middle-class-tragedy",
    "reception": "Positive",
-   "criticScore": "Flickonclick 4/5; Outlook 2.5/5"
+   "criticScore": "Flickonclick 4/5; Outlook 2.5/5",
+   "tmdbId": 1574560,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/8PHu0eeZABZCT0HrX79UoDAHivi.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lXzc4ZQXjGSPcnZzGq8uVpqd2xJ.jpg"
   },
   {
    "id": "i-m-game-2026",
@@ -900,7 +981,11 @@
    "budgetAmt": 80,
    "grossAmt": 48,
    "budgetNote": "Budget around ₹80 cr (reported)",
-   "budgetSource": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-november-2-8-kunjumalakha-im-game-icu-until-last-breath-meesaya-murukku-2-manorama-max-jiohotstar-sun-nxt-sonyliv"
+   "budgetSource": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-november-2-8-kunjumalakha-im-game-icu-until-last-breath-meesaya-murukku-2-manorama-max-jiohotstar-sun-nxt-sonyliv",
+   "tmdbId": 1250502,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/pHek88ShMFFkueZ6GsrfsN0sc2L.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qBq5WnciKVDc9gaVyP7pKKNeveY.jpg"
   },
   {
    "id": "black-doves-season-2-2026",
@@ -1003,7 +1088,11 @@
    "money": "INR",
    "grossAmt": 1.3,
    "budgetNote": "Gross from Sacnilk",
-   "budgetSource": "https://www.sacnilk.com/movie/Bhai_Tera_Star_Hai_2026"
+   "budgetSource": "https://www.sacnilk.com/movie/Bhai_Tera_Star_Hai_2026",
+   "tmdbId": 1642850,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/pOvjcDHftVa6SJk2DmAm1cD0YOb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/epZxybfKydZxLNqCHZRpjenAkDS.jpg"
   },
   {
    "id": "blind-game-2026",
@@ -1023,7 +1112,11 @@
    "cast": "Arjun Rampal, Priyamani, Rohit Chandel",
    "director": "Sangeeth Sivan",
    "synopsis": "A suspended police officer gets drawn into a twisty crime investigation.",
-   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-2-to-8-2026-featuring-meesaya-murukku-2-im-game-blind-game-and-more"
+   "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-2-to-8-2026-featuring-meesaya-murukku-2-im-game-blind-game-and-more",
+   "tmdbId": 1755818,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/kO9q6StIAUBpfcKVtTSth7zOE2C.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ieyDlgGj75a2P45I9B1NEcCpUWj.jpg"
   },
   {
    "id": "anakapalli-2026",
@@ -1048,7 +1141,11 @@
    "boxOffice": "₹1.9 cr worldwide",
    "money": "INR",
    "grossAmt": 1.93,
-   "budgetNote": "Gross from Sacnilk (21 days)"
+   "budgetNote": "Gross from Sacnilk (21 days)",
+   "tmdbId": 1690876,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/gwyOrA2t78PT5xrayNRvqZisTpZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tQEWJC6Mnjlltjwgpv8s0BgPOdF.jpg"
   },
   {
    "id": "minions-monsters-2026",
@@ -1076,7 +1173,11 @@
    "source": "https://www.sacnilk.com/news/new-ott-releases-this-week-november-2-to-8-2026-featuring-meesaya-murukku-2-im-game-blind-game-and-more",
    "imdb": 6.3,
    "imdbVotes": "37K",
-   "ratingSource": "https://www.justwatch.com/in/movie/minions-and-monsters"
+   "ratingSource": "https://www.justwatch.com/in/movie/minions-and-monsters",
+   "tmdbId": 1315772,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg"
   },
   {
    "id": "comrade-kalyan-2026",
@@ -1192,7 +1293,11 @@
    "reception": "Negative",
    "money": "INR",
    "grossAmt": 0.14,
-   "budgetNote": "Gross from Sacnilk (SI Yugandhar)"
+   "budgetNote": "Gross from Sacnilk (SI Yugandhar)",
+   "tmdbId": 1811964,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/mIK5YnqQWKZxyQgaeDDVywUxNWo.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/hFKZK6R1iFvB1Da01rN28CqWYmi.jpg"
   },
   {
    "id": "rudravanam-ps-2026",
@@ -1212,7 +1317,11 @@
    "cast": "Naresh Agastya, Banerjee, Shiva Alapati",
    "director": "Sasidhar Munnangi",
    "synopsis": "A sub-inspector investigates a missing man and a headless corpse in a seven-episode crime series.",
-   "source": "https://www.telugutimes.net/en/cinemas/cinema-news/rudravanam-ps-trailer-unveils-a-dark-crime-mystery-as-zee5-original-premieres-on-oct-30-363760.html"
+   "source": "https://www.telugutimes.net/en/cinemas/cinema-news/rudravanam-ps-trailer-unveils-a-dark-crime-mystery-as-zee5-original-premieres-on-oct-30-363760.html",
+   "tmdbId": 340453,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/s3vpAMhZpqbDRNE2Rtx8N6VtqI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/q1ZMc99nW9RQhB0XlSCDssId5xy.jpg"
   },
   {
    "id": "obsession-2026",
@@ -1412,7 +1521,11 @@
    "ratingSource": "https://www.justwatch.com/in/movie/baththa",
    "reception": "Positive",
    "boxOffice": "₹35 cr+ (reported)",
-   "money": "INR"
+   "money": "INR",
+   "tmdbId": 1515692,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/7wHBYs8HHmTGe4nXLpMEAoDSK2o.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/5sBnZMT1aJ6cBvehKOzOOLdI6bz.jpg"
   },
   {
    "id": "sumo-didi-2026",
@@ -1820,7 +1933,11 @@
    "imdbVotes": "3K",
    "ratingSource": "https://www.justwatch.com/in/movie/aasha-2026",
    "reception": "Positive",
-   "criticScore": "The Week 4/5"
+   "criticScore": "The Week 4/5",
+   "tmdbId": 1513475,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/dZyMVwRhI0Y1ANDRM4sAk7P4hYC.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tkRcmn2ZpXq3k6JEeilgVXGAVJ0.jpg"
   },
   {
    "id": "the-diplomat-season-4-2026",
@@ -2119,7 +2236,11 @@
    "money": "INR",
    "grossAmt": 45,
    "budgetNote": "Described only as a 'massive budget'; called a box-office disappointment",
-   "budgetSource": "https://www.sacnilk.com/news/khalifa-ott-release-prithviraj-sukumarans-action-thriller-begins-streaming-on-six-platforms-after-box-office-disappointment"
+   "budgetSource": "https://www.sacnilk.com/news/khalifa-ott-release-prithviraj-sukumarans-action-thriller-begins-streaming-on-six-platforms-after-box-office-disappointment",
+   "tmdbId": 1036081,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/3HOC3omTbl7lB9gxKu7uCEpOtuC.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6Jz7rnnZrSkgs9ySWUxewpcxr7Q.jpg"
   },
   {
    "id": "pradhama-drishtiya-kuttakkar-2026",
@@ -2151,7 +2272,11 @@
    "imdbVotes": "6.7K",
    "ratingSource": "https://www.justwatch.com/in/movie/pradhama-dhrishtya-kuttakkar",
    "reception": "Positive",
-   "criticScore": "The Week 5/5; Gulf News 3.5/5"
+   "criticScore": "The Week 5/5; Gulf News 3.5/5",
+   "tmdbId": 1544847,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/yJ78kbekUBZMcxla1lXABI9o2wL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zmfUqsFcQs6BjLJStofM5MD2l7L.jpg"
   },
   {
    "id": "eyes-2026",
@@ -2173,7 +2298,11 @@
    "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/malayalam-ott-releases-this-week-oct-5-11-pradhama-drishtiya-kuttakar-eyes-khalifa-the-ruler-epic-first-semester-netflix-prime-video-sonyliv-parvathy-kani-kusruti",
    "ratingSource": "https://www.hollywoodreporterindia.com/reviews/streaming/eyes-series-review-unapologetically-pulpy-with-a-striking-jaffer-idukki-performance",
    "reception": "Positive",
-   "criticScore": "Flick on Click 3.5/5"
+   "criticScore": "Flick on Click 3.5/5",
+   "tmdbId": 255613,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/oHhLK5Dxi1Jpe4weMF9iuRp5cHL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/q4BYjFASgKG7LdbjYfd0xxo0TSr.jpg"
   },
   {
    "id": "mortal-kombat-ii-2026",
@@ -2243,7 +2372,11 @@
    "reception": "Positive",
    "boxOffice": "₹133.82 cr worldwide (as of 2026-10-05)",
    "money": "INR",
-   "grossAmt": 133.82
+   "grossAmt": 133.82,
+   "tmdbId": 1465943,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/jLVMvJAmnVRo2lzbqtGiecLzPLy.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xO0YZ1zKFSSpM7dIsvssWKabp6J.jpg"
   },
   {
    "id": "ishqa-ishqa-2026",
@@ -2439,7 +2572,11 @@
    "money": "INR",
    "grossAmt": 331.1,
    "budgetNote": "₹25–35 cr (reported estimate)",
-   "budgetSource": "https://www.theweek.in/news/entertainment/2026/09/27/bethlehem-kudumba-unit-ott-release.html"
+   "budgetSource": "https://www.theweek.in/news/entertainment/2026/09/27/bethlehem-kudumba-unit-ott-release.html",
+   "tmdbId": 1508168,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/uaSZiH6yoGaVJcqzKtrfSkqDuHX.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zms3m4kVz7RXmobU1B0nhrvUEmP.jpg"
   },
   {
    "id": "mother-promise-2026",
@@ -2460,7 +2597,11 @@
    "director": "Poornachandra Mysuru",
    "synopsis": "An absurdist gangster comedy built around Dhananjaya's menacing gangster Rossi.",
    "source": "https://www.filmibeat.com/top-listing/new-ott-releases-this-week-in-kannada-2024-prime-video-netflix-zee5-hotstar-sunnxt-and-sonyliv-3-1088.html",
-   "reception": "Positive"
+   "reception": "Positive",
+   "tmdbId": 1662770,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/pZ217WCJ2lFcb7hVQV4DCvJtLby.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/x664EHcPaGpShIRdXE16F99fa5K.jpg"
   },
   {
    "id": "romanchakam-2026",
@@ -2597,7 +2738,11 @@
    "ratingSource": "https://www.justwatch.com/in/movie/sardar-2",
    "reception": "Mixed",
    "boxOffice": "₹17.75 cr India gross (first week, Pinkvilla)",
-   "money": "INR"
+   "money": "INR",
+   "tmdbId": 1317872,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/muGsRtsNrG1gnlF2fPYrBa4TGlr.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/i39M5xz57fEkPLtuiAXqWwMNMyN.jpg"
   },
   {
    "id": "ameer-log-2026",
@@ -3044,7 +3189,11 @@
    "budgetAmt": 15,
    "grossAmt": 41,
    "budgetNote": "Reported modest budget of around ₹15 cr",
-   "budgetSource": "https://www.theweek.in/news/entertainment/2026/09/05/thudakkam-ott-release-date.amp.html"
+   "budgetSource": "https://www.theweek.in/news/entertainment/2026/09/05/thudakkam-ott-release-date.amp.html",
+   "tmdbId": 1506736,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/A8Y0QLNqaFvsergQe80tC6Nfa2k.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xcvPY9Wk2TzZWQRynWSwHEhnK2j.jpg"
   },
   {
    "id": "modha-rathri-2026",
@@ -3075,7 +3224,11 @@
    "imdbVotes": "5K",
    "ratingSource": "https://www.justwatch.com/in/movie/modha-rathiri",
    "reception": "Positive",
-   "criticScore": "DT Next 4/5"
+   "criticScore": "DT Next 4/5",
+   "tmdbId": 1685882,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/3VuNFeniljhEe9MDW12MnDbETgH.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/aT8Uk5uQKBJ3Syt63SNdlPUwqI9.jpg"
   },
   {
    "id": "lee-cronin-s-the-mummy-2026",
@@ -3367,7 +3520,11 @@
    "reception": "Mixed",
    "criticScore": "The Week 3.5/5",
    "boxOffice": "₹260 cr+ worldwide (25 days)",
-   "money": "INR"
+   "money": "INR",
+   "tmdbId": 1408162,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/mLsvCffzpxxDwC7yVLJSLLjgzoq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg"
   },
   {
    "id": "chumbak-2026",
@@ -3558,7 +3715,11 @@
    "ratingSource": "https://www.justwatch.com/in/movie/dc-2026",
    "reception": "Positive",
    "boxOffice": "₹100 cr+ worldwide",
-   "money": "INR"
+   "money": "INR",
+   "tmdbId": 1479832,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/k9AwqfQ9wYtaGew8oZh6GBouvO2.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/v7kqufGRDotShPCw53SM7m8t6oc.jpg"
   },
   {
    "id": "the-gentlemen-season-2-2026",
@@ -4050,7 +4211,11 @@
    "imdb": 5.9,
    "imdbVotes": "1.9K",
    "ratingSource": "https://www.justwatch.com/in/movie/i-nobody",
-   "reception": "Mixed"
+   "reception": "Mixed",
+   "tmdbId": 1339676,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/qFJl3w9KpVXpfZ3rpmv7p0UYZkP.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/hqKiCVuNRJSJEvg8tmiQRxiVvlp.jpg"
   },
   {
    "id": "welcome-to-the-jungle-2026",
@@ -4225,7 +4390,11 @@
    "criticScore": "Rotten Tomatoes 20% (10 reviews)",
    "boxOffice": "₹327.2 cr worldwide (Koimoi closing)",
    "money": "INR",
-   "grossAmt": 327.2
+   "grossAmt": 327.2,
+   "tmdbId": 1235877,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/jt8pfSIdi47YpFMMWVRr8w5u2S0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/v3lNH2gCojWYXVuXcT9FZLBxcSq.jpg"
   },
   {
    "id": "srinivasa-mangapuram-2026",
@@ -4367,7 +4536,11 @@
    "reception": "Positive",
    "money": "INR",
    "budgetNote": "Estimated ₹18–22 cr; ~₹24 cr worldwide by day 9",
-   "budgetSource": "https://www.theweek.in/news/entertainment/2026/06/28/word-of-mouth-boosts-balan-the-boy-box-office.html"
+   "budgetSource": "https://www.theweek.in/news/entertainment/2026/06/28/word-of-mouth-boosts-balan-the-boy-box-office.html",
+   "tmdbId": 1410937,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/boKxdR9tgXfkazf6yWgiDdleBy0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/cb4b4K3E2jBGaSjkuIkZHJHmoWG.jpg"
   },
   {
    "id": "pallichattambi-2026",
@@ -4397,7 +4570,11 @@
    "budgetAmt": 45,
    "grossAmt": 18.5,
    "budgetNote": "Reported ₹45 cr budget; underwhelming run",
-   "budgetSource": "https://www.newsbytesapp.com/news/entertainment/thomass-pallichattambi-earns-rs82cr-opening-during-vishu-despite-rs45cr-budget/tldr"
+   "budgetSource": "https://www.newsbytesapp.com/news/entertainment/thomass-pallichattambi-earns-rs82cr-opening-during-vishu-despite-rs45cr-budget/tldr",
+   "tmdbId": 959894,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/kT8sH49Yhn4QBzNJvrL0wUglE06.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kAJK8Kp6oPYb3T2gIHfp2SNitJ.jpg"
   },
   {
    "id": "the-devil-2025",
@@ -4424,7 +4601,11 @@
    "reception": "Mixed",
    "criticScore": "Filmibeat 3/5",
    "boxOffice": "₹34.52 cr (Filmibeat)",
-   "money": "INR"
+   "money": "INR",
+   "tmdbId": 1245535,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/gbL5xX5qo6LSsfnfEXN1BIPLKH.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pTWmpKDCgZhJpNfCS8rEGTnkKB.jpg"
   }
  ]
 }
