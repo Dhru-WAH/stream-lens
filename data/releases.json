@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-14T14:37:48+05:30",
- "count": 146,
+ "updatedAt": "2026-11-16T09:00:00+05:30",
+ "count": 147,
  "titles": [
   {
    "id": "udta-teer-2026",
@@ -346,6 +346,48 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/9cG28CqPloosifAz4w21i0aSOI8.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/pi8c5iEPamGFaZSnxaMSVSLhMlr.jpg"
+  },
+  {
+   "id": "hanuman-ansh-2026",
+   "title": "Hanuman Ansh",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "SonyLIV",
+   "ottDate": "2026-11-27",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": "2026-08-07",
+   "genres": [
+    "Biography",
+    "Drama"
+   ],
+   "cast": "Shobhinaw Satyaa, Chandan K Anand, Purnima Tiwari, Anil Rastogi, Gulshan Pandey",
+   "director": "Vishal Chaturvedi",
+   "dubs": [],
+   "synopsis": "A devotional biopic tracing how Lakshmi Narayan Sharma became the spiritual guru Neem Karoli Baba.",
+   "source": "https://www.sacnilk.com/news/hanuman-ansh-ott-release-date-when-and-where-to-watch-vishal-chaturvedis-devotional-drama",
+   "imdb": null,
+   "imdbVotes": null,
+   "ratingSource": null,
+   "bms": null,
+   "bmsVotes": null,
+   "reception": null,
+   "criticScore": null,
+   "verdict": null,
+   "verdictSource": null,
+   "boxOffice": "₹453 cr worldwide",
+   "money": "INR",
+   "budgetAmt": 2,
+   "grossAmt": 453,
+   "breakEvenAmt": null,
+   "breakEvenKind": null,
+   "budgetNote": "₹2 cr reported",
+   "budgetSource": "https://www.sacnilk.com/news/hanuman-ansh-ott-release-date-when-and-where-to-watch-vishal-chaturvedis-devotional-drama",
+   "tmdbId": 1709391,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/as2Y3zGUa2IUS3uAx2sh6Ano3es.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tKYOK8iMxkhJhug3LJ2yvC5QY8M.jpg"
   },
   {
    "id": "the-mosquito-bowl-2026",
