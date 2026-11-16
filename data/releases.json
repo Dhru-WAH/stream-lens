@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-16T09:00:00+05:30",
+ "updatedAt": "2026-11-16T11:50:00+05:30",
  "count": 147,
  "titles": [
   {
@@ -553,7 +553,7 @@
    "platform": "Netflix",
    "ottDate": "2026-11-13",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": "2026-10-16",
    "genres": [
     "Action",
@@ -597,7 +597,7 @@
    "platform": "JioHotstar",
    "ottDate": "2026-11-13",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "genres": [
     "Thriller"
    ],
@@ -725,7 +725,7 @@
    "platform": "SonyLIV",
    "ottDate": "2026-11-13",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": null,
    "genres": [
     "Romance",
