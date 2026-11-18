@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-17T11:16:00+05:30",
+ "updatedAt": "2026-11-18T11:11:00+05:30",
  "count": 152,
  "titles": [
   {
@@ -322,6 +322,33 @@
    "tmdbId": 1515392,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/5oWFImTHixV6KKGe6YftXVqBn8G.jpg"
+  },
+  {
+   "id": "o-saathi-re-2026",
+   "title": "O Saathi Re",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Netflix",
+   "ottDate": "2026-12-04",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": null,
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "cast": "Aditi Rao Hydari, Avinash Tiwary, Arjun Rampal",
+   "director": "Arif Ali",
+   "synopsis": "Imtiaz Ali's romantic drama series follows a couple working through a divorce.",
+   "source": "https://www.hollywoodreporterindia.com/features/insight/o-saathi-re-imtiaz-alis-romance-series-starring-aditi-rao-hydari-arjun-rampal-and-avinash-tiwary-locks-december-4-premiere",
+   "verdict": null,
+   "budgetAmt": null,
+   "grossAmt": null,
+   "breakEvenAmt": null,
+   "tmdbId": 281722,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/eX2DKTgy9BFD0YWqUShhJsDf14P.jpg"
   },
   {
    "id": "the-man-with-the-bag-2026",
@@ -764,18 +791,19 @@
    "ratingSource": "https://www.justwatch.com/in/movie/ranabaali",
    "reception": "Mixed",
    "criticScore": "123telugu 2.75/5",
-   "boxOffice": "₹81.9 cr worldwide (still running)",
+   "boxOffice": "₹81.95 cr worldwide (closing, Koimoi)",
    "money": "INR",
    "budgetAmt": 120,
-   "grossAmt": 81.94,
+   "grossAmt": 81.95,
    "breakEvenAmt": 59,
    "breakEvenKind": "share",
-   "budgetNote": "₹120 cr (Wikipedia/Samayam, Esquire); Koimoi ₹120–150 cr. BE: WW theatrical business ₹59 cr incl. GST, ~₹108 cr gross break-even (Gulte)",
+   "budgetNote": "₹120 cr (Wikipedia/Samayam, Esquire); Koimoi ₹120–150 cr. BE: WW theatrical business ₹59 cr incl. GST, ~₹108 cr gross break-even (Gulte). Closing gross per Koimoi: recovered less than half its budget",
    "budgetSource": "https://en.wikipedia.org/wiki/Ranabaali",
    "tmdbId": 1389379,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/cXaCyYYbafVyMrs8rwKmxezBYPJ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg"
+   "backdrop": "https://image.tmdb.org/t/p/w780/xpImgnsxuqb3VOp0QRtXTS5uBRi.jpg",
+   "verdictSource": "https://www.koimoi.com/box-office/ranabaali-box-office-closing-collection-vijay-deverakondas-film-recovers-less-than-50-of-its-budget/"
   },
   {
    "id": "student-of-the-year-after-dark-2026",
@@ -965,7 +993,10 @@
    "tmdbId": 1234139,
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg"
+   "backdrop": "https://image.tmdb.org/t/p/w780/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
+   "budgetAmt": 350,
+   "budgetNote": "₹350 cr estimate (Koimoi); Sacnilk lists N/A",
+   "budgetSource": "https://www.koimoi.com/box-office/jailer-2-box-office-rajinikanth-starrer-completes-one-month-in-theaters-heres-its-budget-collection-verdict/"
   },
   {
    "id": "the-lord-of-the-rings-the-rings-of-power-season-3-2026",
@@ -4737,37 +4768,6 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/kT8sH49Yhn4QBzNJvrL0wUglE06.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/kAJK8Kp6oPYb3T2gIHfp2SNitJ.jpg"
-  },
-  {
-   "id": "the-devil-2025",
-   "title": "The Devil",
-   "year": 2025,
-   "lang": "kn",
-   "kind": "movie",
-   "platform": "ZEE5",
-   "ottDate": "2026-07-17",
-   "dateConfirmed": true,
-   "status": "streaming",
-   "theatricalDate": "2025-12-11",
-   "genres": [
-    "Action",
-    "Thriller"
-   ],
-   "cast": "Darshan, Rachana Rai, Mahesh Manjrekar, Achyuth Kumar, Sharmila Mandre",
-   "director": "Prakash Veer",
-   "synopsis": "With a jailed Chief Minister's son refusing to return from London, an IAS officer recruits a lookalike named Krishna to impersonate him, until a mysterious figure called The Devil appears.",
-   "source": "https://www.sakshipost.com/news/entertainment/darshans-devil-ott-release-when-and-where-watch-481037",
-   "imdb": 8.5,
-   "imdbVotes": "6K",
-   "ratingSource": "https://www.justwatch.com/in/movie/devil-the-hero",
-   "reception": "Mixed",
-   "criticScore": "Filmibeat 3/5",
-   "boxOffice": "₹34.52 cr (Filmibeat)",
-   "money": "INR",
-   "tmdbId": 1245535,
-   "tmdbType": "movie",
-   "poster": "https://image.tmdb.org/t/p/w500/gbL5xX5qo6LSsfnfEXN1BIPLKH.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pTWmpKDCgZhJpNfCS8rEGTnkKB.jpg"
   }
  ]
 }
