@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-18T11:11:00+05:30",
- "count": 152,
+ "updatedAt": "2026-11-19T11:05:00+05:30",
+ "count": 155,
  "titles": [
   {
    "id": "udta-teer-2026",
@@ -70,28 +70,6 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg"
-  },
-  {
-   "id": "panchayat-season-5-2026",
-   "title": "Panchayat Season 5",
-   "year": 2026,
-   "lang": "hi",
-   "kind": "series",
-   "platform": "Prime Video",
-   "dateConfirmed": false,
-   "status": "upcoming",
-   "genres": [
-    "Comedy",
-    "Drama"
-   ],
-   "cast": "Jitendra Kumar, Neena Gupta, Raghubir Yadav, Chandan Roy, Faisal Malik, Sanvikaa",
-   "director": "Deepak Kumar Mishra",
-   "synopsis": "Abhishek Tripathi and the people of Phulera return for another season of village politics.",
-   "source": "https://www.pinkvilla.com/cinema/panchayat-season-5-when-will-jitendra-kumar-starrer-web-series-start-streaming-heres-what-we-know-1405290",
-   "tmdbId": 101352,
-   "tmdbType": "tv",
-   "poster": "https://image.tmdb.org/t/p/w500/8ivTX5q2otqXvH815BcOhxVkTPW.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg"
   },
   {
    "id": "karmakhya-2026",
@@ -302,6 +280,31 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/hhBoWDKmq9u8V2qi0Rtm3XGiydn.jpg"
   },
   {
+   "id": "call-me-bae-season-2-2026",
+   "title": "Call Me Bae Season 2",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Prime Video",
+   "ottDate": "2026-12-17",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "theatricalDate": null,
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Ananya Panday, Shruti Haasan",
+   "director": null,
+   "dubs": [],
+   "synopsis": "Bella returns for a second season of the Mumbai-set comedy drama, with Shruti Haasan joining the cast.",
+   "source": "https://www.freepressjournal.in/entertainment/call-me-bae-season-2-ott-release-date-when-and-where-to-watch-ananya-pandays-show",
+   "tmdbId": 238108,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/qdWoYn4KOiZNjR4EOHUsNjamzJ0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/fZXW2QPESgq0nls3KI8KmpN94RI.jpg"
+  },
+  {
    "id": "bad-day-2026",
    "title": "Bad Day",
    "year": 2026,
@@ -351,6 +354,29 @@
    "poster": "https://image.tmdb.org/t/p/w500/eX2DKTgy9BFD0YWqUShhJsDf14P.jpg"
   },
   {
+   "id": "panchayat-season-5-2026",
+   "title": "Panchayat Season 5",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "series",
+   "platform": "Prime Video",
+   "dateConfirmed": true,
+   "status": "upcoming",
+   "genres": [
+    "Comedy",
+    "Drama"
+   ],
+   "cast": "Jitendra Kumar, Neena Gupta, Raghubir Yadav, Chandan Roy, Faisal Malik, Sanvikaa",
+   "director": "Deepak Kumar Mishra",
+   "synopsis": "Abhishek Tripathi and the people of Phulera return for another season of village politics.",
+   "source": "https://www.aninews.in/news/entertainment/bollywood/panchayat-season-5-release-date-out-to-stream-from-december-320261118162716/",
+   "tmdbId": 101352,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/8ivTX5q2otqXvH815BcOhxVkTPW.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg",
+   "ottDate": "2026-12-03"
+  },
+  {
    "id": "the-man-with-the-bag-2026",
    "title": "The Man with the Bag",
    "year": 2026,
@@ -373,6 +399,19 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/9cG28CqPloosifAz4w21i0aSOI8.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/pi8c5iEPamGFaZSnxaMSVSLhMlr.jpg"
+  },
+  {
+   "id": "melbourne-mates-2026",
+   "title": "Melbourne Mates",
+   "year": 2026,
+   "lang": "te",
+   "kind": "series",
+   "platform": "ETV Win",
+   "ottDate": "2026-11-30",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "theatricalDate": null,
+   "source": "https://www.123telugu.com/mnews/latest-telugu-movie-theatrical-and-ott-release-dates-list.html"
   },
   {
    "id": "hanuman-ansh-2026",
@@ -673,6 +712,26 @@
    "tmdbType": "tv",
    "poster": "https://image.tmdb.org/t/p/w500/6qqSKYXHI8lwgIBztBCZqgvw5u6.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/cD0p4eFGFAOgnLmaz0E4NR2np5G.jpg"
+  },
+  {
+   "id": "dulhaniya-le-aaeegi-2026",
+   "title": "Dulhaniya Le Aaeegi",
+   "year": 2026,
+   "lang": "hi",
+   "kind": "movie",
+   "platform": "JioHotstar",
+   "ottDate": "2026-11-18",
+   "dateConfirmed": false,
+   "status": "streaming",
+   "theatricalDate": "2026-07-24",
+   "cast": "Khushalii Kumar, Mahesh Manjrekar, Piyush Mishra",
+   "director": "Akashaditya Lama",
+   "synopsis": "Khushalii Kumar and Mahesh Manjrekar play a daughter and father in this wedding-themed comedy.",
+   "source": "https://www.123telugu.com/mnews/latest-telugu-movie-theatrical-and-ott-release-dates-list.html",
+   "tmdbId": 1720201,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/dNLoaglvhEYvDGSXnn1mBvE7PVG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xM8N87uAydIe9CelsN1TMDgPJfM.jpg"
   },
   {
    "id": "queen-2026",
