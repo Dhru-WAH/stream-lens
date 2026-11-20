@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-19T11:05:00+05:30",
- "count": 155,
+ "updatedAt": "2026-11-20T11:30:00+05:30",
+ "count": 158,
  "titles": [
   {
    "id": "udta-teer-2026",
@@ -354,6 +354,37 @@
    "poster": "https://image.tmdb.org/t/p/w500/eX2DKTgy9BFD0YWqUShhJsDf14P.jpg"
   },
   {
+   "id": "scene-2026",
+   "title": "Scene",
+   "year": 2026,
+   "lang": "ta",
+   "kind": "movie",
+   "platform": "Netflix",
+   "ottDate": "2026-12-04",
+   "dateConfirmed": false,
+   "status": "upcoming",
+   "theatricalDate": "2026-11-06",
+   "genres": [
+    "Crime",
+    "Thriller"
+   ],
+   "cast": "Suriya, Nazriya Nazim, Naslen, Lal, Anandraj",
+   "director": "Jithu Madhavan",
+   "dubs": [
+    "te"
+   ],
+   "synopsis": "A police officer is pulled back into an unfinished case from his past when new murders echo it.",
+   "source": "https://www.esquireindia.co.in/entertainment/what-to-stream/scene-ott-release-date-when-and-where-to-watch-suriya-nazriya-and-naslen-tamil-film-online-netflix",
+   "boxOffice": "₹259.45 cr worldwide (14 days, still running)",
+   "money": "INR",
+   "grossAmt": 259.45,
+   "verdictSource": "https://www.sacnilk.com/movie/Scene_2026",
+   "tmdbId": 1402181,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/kfc4w3OX8QsFm8f9MPUdmGheNl3.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xhBaF3bpEnZhf61klsWaFKkNZF.jpg"
+  },
+  {
    "id": "panchayat-season-5-2026",
    "title": "Panchayat Season 5",
    "year": 2026,
@@ -601,7 +632,7 @@
    "platform": "Netflix",
    "ottDate": "2026-11-20",
    "dateConfirmed": true,
-   "status": "upcoming",
+   "status": "streaming",
    "theatricalDate": "2026-10-23",
    "genres": [
     "Horror",
@@ -616,7 +647,7 @@
     "ml"
    ],
    "synopsis": "Two medical-college freshmen dig into the haunted hostel room 418, where the spirit of a woman tied to ritual killings is trapped.",
-   "source": "https://www.123telugu.com/mnews/missed-418-in-theatres-netflix-to-stream-prashanth-neel-presented-horror-film-on-this-date-ott-hk.html",
+   "source": "https://www.123telugu.com/mnews/ott-alert-mythri-movie-makers-first-horror-film-418-now-streaming-on-netflix-hk.html",
    "reception": "Negative",
    "criticScore": "Gulte 2.25/5",
    "ratingSource": "https://www.gulte.com/moviereviews/437616/418-movie-review",
@@ -665,7 +696,48 @@
    ],
    "cast": "Prasanna Bisht, Danesh Razvi",
    "synopsis": "A college cricketer juggling love and sporting ambition has to rethink her future after an unexpected pregnancy.",
-   "source": "https://daijiworld.com/news/newsDisplay?newsID=1335454"
+   "source": "https://daijiworld.com/news/newsDisplay?newsID=1335454",
+   "tmdbId": 342646,
+   "tmdbType": "tv",
+   "poster": "https://image.tmdb.org/t/p/w500/3RdK0k5nbh0PHQeX2A54Fcf3Wm1.jpg"
+  },
+  {
+   "id": "cult-2026",
+   "title": "Cult",
+   "year": 2026,
+   "lang": "te",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "ottDate": "2026-11-19",
+   "dateConfirmed": true,
+   "status": "streaming",
+   "theatricalDate": "2026-10-30",
+   "genres": [
+    "Horror",
+    "Thriller"
+   ],
+   "cast": "Vishwak Sen, Gayatri Bharadwaj, Tarak Ponnappa, Murali Sharma, Srikanth Iyengar",
+   "director": "Vishwak Sen",
+   "dubs": [
+    "hi",
+    "ta",
+    "kn",
+    "ml"
+   ],
+   "synopsis": "A birthday party at a Goa nightclub turns deadly when a masked stranger starts a lethal game, and a DSP steps in to investigate.",
+   "source": "https://www.filmibeat.com/telugu/news/2026/cult-now-streaming-on-ott-where-to-watch-vishwak-sen-gayatri-bharadwaj-film-online-538593.html",
+   "imdb": 4.4,
+   "ratingSource": "https://www.primevideo.com/detail/0M2G8658P8OKVE2JF5FG9PBEIP",
+   "reception": "Negative",
+   "criticScore": "Gulte 2/5",
+   "boxOffice": "₹5.43 cr worldwide (14 days)",
+   "money": "INR",
+   "grossAmt": 5.43,
+   "verdictSource": "https://www.sacnilk.com/news/Cult_2026_Box_Office_Collection_Day_Wise_Worldwide",
+   "tmdbId": 1637705,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/8jPyjKZE2Bnm3esvDmWZyGA8mkr.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uekvmfoHfefO1w1HDacdo8hvy8x.jpg"
   },
   {
    "id": "madden-2026",
@@ -732,6 +804,43 @@
    "tmdbType": "movie",
    "poster": "https://image.tmdb.org/t/p/w500/dNLoaglvhEYvDGSXnn1mBvE7PVG.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/xM8N87uAydIe9CelsN1TMDgPJfM.jpg"
+  },
+  {
+   "id": "premada-oorali-2026",
+   "title": "Premada Oorali",
+   "year": 2026,
+   "lang": "kn",
+   "kind": "movie",
+   "platform": "Prime Video",
+   "ottDate": "2026-11-17",
+   "dateConfirmed": false,
+   "status": "streaming",
+   "theatricalDate": "2026-09-25",
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "cast": "Rangayana Raghu, Shree Raam, Thapaswini Poonacha, Ramika Shivu",
+   "director": "Manoj Kumar",
+   "dubs": [
+    "te",
+    "ta",
+    "ml",
+    "hi"
+   ],
+   "synopsis": "A widowed farmer's plan to marry off his only son upsets the son's childhood friend, who has long loved him.",
+   "source": "https://filmibeat.com/top-listing/premada-oorali-ott-release-date-streaming-platform-languages-and-more-3-9372.html",
+   "reception": "Mixed",
+   "criticScore": "Filmibeat 3/5",
+   "ratingSource": "https://www.hollywoodreporterindia.com/reviews/theatrical/premada-oorali-movie-review-a-small-minded-small-town-drama",
+   "boxOffice": "₹139.69 cr worldwide (56 days), sleeper hit",
+   "money": "INR",
+   "grossAmt": 139.69,
+   "verdictSource": "https://www.sacnilk.com/movie/Premada_Oorali_2026",
+   "tmdbId": 1735270,
+   "tmdbType": "movie",
+   "poster": "https://image.tmdb.org/t/p/w500/wJsUmiwuZ9eKnOiYLAVk8THFk7i.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/r22LSVD46wOY3rkavnM4gWc3sz2.jpg"
   },
   {
    "id": "queen-2026",
